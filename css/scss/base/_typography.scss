@@ -1,0 +1,76 @@
+/* FONTS IMPORT */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+
+
+/* HEADINGS */
+/* http://www.zell-weekeat.com/responsive-typography */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font-family;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.67em;
+  font-weight: $regular;
+}
+
+h1 {
+  @include font-size($h1-font-sizes);
+}
+
+h2 {
+  @include font-size($h2-font-sizes);
+}
+
+h3 {
+  @include font-size($h3-font-sizes);
+}
+
+h4 {
+  @include font-size($h4-font-sizes);
+}
+
+h5 {
+  @include font-size($h5-font-sizes);
+}
+
+h6 {
+  @include font-size($h6-font-sizes);
+}
+
+
+/* LINKS */
+
+a {
+  outline-width: 0;
+  color: $color-link;
+  transition: $transition-time;
+}
+
+a:hover, a:focus, a:active {
+  color: lighten($color-primary, 5%);
+}
+
+.link {
+  color: rgba($color-primary, 0.8);
+  text-decoration: none;
+  transition: $transition-time;
+}
+
+.link:hover, .link:focus, .link:active {
+  text-decoration: underline;
+}
+
+
+/* OTHER */
+
+b, strong, .strong {
+  font-weight: $bold;
+}
+
+p {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  margin-bottom: 1.5rem;
+}
