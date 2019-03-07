@@ -179,6 +179,9 @@ body {
 *, *:before, *:after {
   box-sizing: inherit; }
 
+.footer {
+  grid-column: 1/span 12; }
+
 .grid {
   margin-left: 1.25rem;
   margin-right: 1.25rem; }
@@ -198,5 +201,15 @@ body {
     .grid {
       margin-left: 6rem;
       margin-right: 6rem; } }
+
+.nav {
+  grid-column: 1/span 12;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  font-family: "Palanquin Dark", sans-serif;
+  z-index: 5; }
 
 /*# sourceMappingURL=main.css.map */

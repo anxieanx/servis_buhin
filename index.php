@@ -21,23 +21,17 @@
     <meta property="og:description" content="Servis Buhin bavi se servisiranjem i montažom plinskih trošila. Ovlašteni servisni partner za proizvodni program Vaillant i Junker Bosch. U obrtu trenutno ima četiri zaposlena djelatnika, a svaki od njih je prošao školovanje u predstavništvu tvrtki Vaillant i Junkers u Zagrebu, kao i u sjedištima tvrtki u Njemačkoj." />
     <meta property="og:image" content="" />
 
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="shortcut icon" type="image/png" href="img/logo-baum.png"/>
-	<link rel="stylesheet" href="scss/vendors/owl_carousel.css">
-	<link rel="stylesheet" href="scss/vendors/owl_theme.css">
-	<link rel="stylesheet" href="scss/main.css">
+	<link rel="stylesheet" href="css/scss/main.css">
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
 <body>
 
-<?php
-
-
-
-
-
-
-?>
+<main class="grid grid--12">
+	<?php 
+	include 'navigation.php';
+	?>
+	
+</main>
 
 <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
 	  integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
