@@ -11,6 +11,7 @@
 /* FONTS IMPORT */
 @import url("https://fonts.googleapis.com/css?family=Palanquin+Dark&subset=latin-ext");
 @import url("https://fonts.googleapis.com/css?family=Mukta+Malar:300,400,600,700&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Gudea:400,400i,700&subset=latin-ext");
 /* HEADINGS */
 /* http://www.zell-weekeat.com/responsive-typography */
 h1, h2, h3, h4, h5, h6 {
@@ -25,19 +26,19 @@ h1 {
   line-height: 1.2; }
   @media screen and (min-width: 640px) {
     h1 {
-      font-size: 3rem;
+      font-size: 4rem;
       line-height: 1.2; } }
   @media screen and (min-width: 1024px) {
     h1 {
-      font-size: 3.5rem;
+      font-size: 6rem;
       line-height: 1.2; } }
   @media screen and (min-width: 1200px) {
     h1 {
-      font-size: 3.5rem;
+      font-size: 6rem;
       line-height: 1.2; } }
   @media screen and (min-width: 1440px) {
     h1 {
-      font-size: 3.5rem;
+      font-size: 6rem;
       line-height: 1.2; } }
 
 h2 {
