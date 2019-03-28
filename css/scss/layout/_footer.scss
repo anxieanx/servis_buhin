@@ -1,3 +1,24 @@
 .footer {
 	grid-column: 1/span 12;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	font-family: Palanquin Dark;
+	font-size: 12px;
+
+	&__link{
+	text-decoration: none;
+	color:black;
+	}
 }
+
+.footer__number--wrap{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	}
+
+.footer__number{
+	margin-left: 1rem;
+	margin-right: 1rem;
+	}

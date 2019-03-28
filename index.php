@@ -33,10 +33,17 @@
 	
 </main>
 
+<main class="grid grid--12">
+	<?php 
+	include 'footer.php';
+	?>
+	
+</main>
 <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
 	  integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
       crossorigin="">
 </script> 
 <script src="js/map.js"></script>
+<script src="js/burger.js"></script>
 </body>
 </html>
