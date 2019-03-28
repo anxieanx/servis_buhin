@@ -1,5 +1,5 @@
 <nav class="nav nav--mobile">
-	<a href="index.php" class="nav__logo"><span>SERVIS</span> BUHIN</a>
+	<a href="index.php" class="nav__logo"><span style="font-style: italic;">SERVIS</span> BUHIN</a>
 
 	<div class="burger"></div>
 	<div class="nav--burger">
@@ -14,7 +14,7 @@
 
 
 <nav class="nav nav--desktop">
-	<a href="index.php" class="nav__logo">SERVIS BUHIN</a>
+	<a href="index.php" class="nav__logo"><span style="font-style: italic;">SERVIS</span> BUHIN</a>
 
 	<ul class="nav__link--wrap">
 		<li><a href="ponuda.php" class="nav__link">PONUDA</a></li>
