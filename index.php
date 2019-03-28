@@ -30,6 +30,18 @@
 	<?php 
 	include 'navigation.php';
 	?>
+
+	<header class="header grid--12">
+		<div class="header__info">
+			<h1 class="header__title">Servisiranje<br />i popravak</h1>
+			<p class="header__desc">Plinskih trošila</p>
+			<a href="#" class="btn btn--primary">Saznaj više</a>
+		</div>
+
+		<div class="header__img--wrap">
+			
+		</div>		
+	</header>
 	
 </main>
 

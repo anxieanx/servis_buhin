@@ -1,3 +1,39 @@
 .header {
+	grid-column: 1/span 12;
+	height: calc(100vh - 12rem);
 
+	.header__info {
+		grid-column: 1/span 5;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.header__title {
+		font-weight: $bold;
+		line-height: 1.4;
+		letter-spacing: 6px;
+		text-transform: uppercase;
+		margin-bottom: 4rem;
+	}
+
+	.header__desc {
+		color: rgba($black, 0.5);
+		font-size: 1.75rem;
+		letter-spacing: 2px;
+		text-align: right;
+		text-transform: uppercase;
+		margin-top: 0;
+		margin-bottom: 2rem;
+	}
+
+	.btn--primary {
+		align-self: flex-end;
+	}
+
+	.header__img--wrap {
+		grid-column: 9/span 4;
+		width: calc(100% + 6rem);
+		background-color: $color-primary;
+	}
 }

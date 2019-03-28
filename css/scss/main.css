@@ -26,19 +26,19 @@ h1 {
   line-height: 1.2; }
   @media screen and (min-width: 640px) {
     h1 {
-      font-size: 4rem;
+      font-size: 3rem;
       line-height: 1.2; } }
   @media screen and (min-width: 1024px) {
     h1 {
-      font-size: 6rem;
+      font-size: 5rem;
       line-height: 1.2; } }
   @media screen and (min-width: 1200px) {
     h1 {
-      font-size: 6rem;
+      font-size: 5rem;
       line-height: 1.2; } }
   @media screen and (min-width: 1440px) {
     h1 {
-      font-size: 6rem;
+      font-size: 5rem;
       line-height: 1.2; } }
 
 h2 {
@@ -174,7 +174,9 @@ html {
   color: #1A1A1A; }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -202,6 +204,35 @@ body {
       margin-left: 6rem;
       margin-right: 6rem; } }
 
+.header {
+  grid-column: 1/span 12;
+  height: calc(100vh - 12rem); }
+  .header .header__info {
+    grid-column: 1/span 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .header .header__title {
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-bottom: 4rem; }
+  .header .header__desc {
+    color: rgba(26, 26, 26, 0.5);
+    font-size: 1.75rem;
+    letter-spacing: 2px;
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 2rem; }
+  .header .btn--primary {
+    align-self: flex-end; }
+  .header .header__img--wrap {
+    grid-column: 9/span 4;
+    width: calc(100% + 6rem);
+    background-color: #2A8C57; }
+
 .nav {
   grid-column: 1/span 12;
   color: #FFFFFF;
@@ -217,5 +248,25 @@ body {
     display: inline; }
   .nav .nav__link {
     text-decoration: none; }
+
+.btn {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5rem 1.25rem;
+  transition: 0.2s; }
+
+.btn--primary {
+  color: #2A8C57;
+  background-color: transparent;
+  border: 1px solid #2A8C57;
+  border-radius: 0.25rem; }
+  .btn--primary:hover, .btn--primary:active, .btn--primary:focus {
+    color: #FFFFFF;
+    background-color: #2A8C57; }
 
 /*# sourceMappingURL=main.css.map */
