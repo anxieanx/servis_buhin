@@ -24,38 +24,33 @@
 	<link rel="shortcut icon" type="image/png" href="img/logo-baum.png"/>
 	<link rel="stylesheet" href="css/scss/main.css">
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+
 <body>
+	<main class="grid grid--12">
+		<?php 
+			include 'navigation.php';
+		?>
 
-<main class="grid grid--12">
-	<?php 
-	include 'navigation.php';
-	?>
+		<header class="header grid--12">
+			<div class="header__info">
+				<h1 class="header__title">Servisiranje<br />i popravak</h1>
+				<p class="header__desc">Plinskih trošila</p>
+				<a href="#" class="btn btn--primary">Saznaj više</a>
+			</div>
 
-	<header class="header grid--12">
-		<div class="header__info">
-			<h1 class="header__title">Servisiranje<br />i popravak</h1>
-			<p class="header__desc">Plinskih trošila</p>
-			<a href="#" class="btn btn--primary">Saznaj više</a>
-		</div>
+			<div class="header__img--wrap">
+				
+			</div>		
+		</header>
+		
+		<?php 
+			include 'footer.php';
+		?>
+	</main>
 
-		<div class="header__img--wrap">
-			
-		</div>		
-	</header>
-	
-</main>
-
-<main class="grid grid--12">
-	<?php 
-	include 'footer.php';
-	?>
-	
-</main>
-<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
-	  integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
-      crossorigin="">
-</script> 
-<script src="js/map.js"></script>
-<script src="js/burger.js"></script>
+	<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin="">
+	</script> 
+	<script src="js/map.js"></script>
+	<script src="js/burger.js"></script>
 </body>
 </html>

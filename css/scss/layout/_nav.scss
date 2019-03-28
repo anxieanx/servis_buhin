@@ -7,29 +7,34 @@
 	font-family: $heading-font-family;
 	font-size: 12px;
 
-
 	&__link--wrap li {
 		list-style: none;
 		display: inline;
 	}
 
 	.nav__link {
+		color: $black;
+		letter-spacing: 0.5px;
 		text-decoration: none;
-	}
+		transition: $transition-time;
+		margin-left: 2rem;
 
+		&:hover, &:active, &:focus {
+			color: rgba($black, 0.7);
+		}
+	}
 
 	.nav__logo {
 		display: block;
 		text-decoration: none;
 		font-family: $logo-font-family;
-		font-weight: bold;
+		font-weight: $bold;
 		font-size: 24px;
 	
-		span{
-		font-weight: regular;
-		font-style:italic;
+		span {
+			font-style: italic;
+			font-weight: $regular;
 		}
-
 	}
 }
 
@@ -45,13 +50,9 @@
 		display: flex;
 	}
 
-	.nav__link {
-		color: $black;
-		margin-left: 2rem;
-
-		&:hover {
-			color: $color-gray--light;
-		}
+	.nav__link--wrap {
+		margin: 0;
+		padding: 0;
 	}
 }
 
