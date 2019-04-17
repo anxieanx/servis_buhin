@@ -1,0 +1,38 @@
+/* NAVIGATION */
+
+.nav--style-guide {
+	border-bottom: 1px solid $color-gray--light;
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+
+	@include breakpoint ($medium) {
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
+
+	@include breakpoint ($large) {
+		padding-left: 6rem;
+		padding-right: 6rem;
+	}
+
+	.nav__logo {
+		color: $black;
+		font-family: $heading-font-family;
+		
+		&:hover, &:active, &:focus {
+			color: rgba($black, 0.8);
+		}
+	}
+}
+
+
+/* FOOTER */
+
+.footer--style-guide {
+	@extend .grid;
+
+	height: auto;
+	border-top: 1px solid $color-gray--light;
+	padding-top: 1.25rem;
+	padding-bottom: 1.75rem;
+}
