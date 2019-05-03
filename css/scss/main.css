@@ -16,7 +16,6 @@
 /* http://www.zell-weekeat.com/responsive-typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Palanquin Dark", sans-serif;
-  font-weight: 400;
   margin: 0;
   margin-bottom: 0.5em;
   padding: 0; }
@@ -170,7 +169,7 @@ p {
 html {
   font-family: "Mukta Malar", sans-serif;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.4;
   color: #1A1A1A; }
 
 body {
@@ -185,21 +184,31 @@ body {
   grid-column: 1/span 12;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
-  font-family: Palanquin Dark;
-  font-size: 12px; }
-  .footer__link {
+  height: 94px;
+  font-family: "Palanquin Dark", sans-serif;
+  font-size: 0.75rem; }
+  .footer .footer__number--wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .footer .footer__number {
+    color: #1A1A1A;
     text-decoration: none;
-    color: black; }
+    margin-left: 1rem;
+    margin-right: 1rem; }
+    .footer .footer__number:hover, .footer .footer__number:active, .footer .footer__number:focus {
+      color: #1A1A1A; }
+  .footer .footer__link {
+    color: #1A1A1A;
+    text-decoration: none; }
+    .footer .footer__link:hover, .footer .footer__link:active, .footer .footer__link:focus {
+      color: #30a063; }
 
-.footer__number--wrap {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; }
-
-.footer__number {
-  margin-left: 1rem;
-  margin-right: 1rem; }
+.main {
+  height: 100vh;
+  align-content: space-between; }
 
 .grid {
   margin-left: 1.25rem;
@@ -223,7 +232,7 @@ body {
 
 .header {
   grid-column: 1/span 12;
-  height: calc(100vh - 12rem); }
+  height: calc(100vh - 14rem); }
   .header .header__info {
     grid-column: 1/span 5;
     display: flex;
@@ -249,6 +258,26 @@ body {
     grid-column: 9/span 4;
     width: calc(100% + 6rem);
     background-color: #2A8C57; }
+  .header .header__offer {
+    grid-column: 1/span 5;
+    flex-direction: column;
+    justify-content: center; }
+  .header .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .header .header__about {
+    grid-column: 1/span 6;
+    flex-direction: column;
+    justify-content: center; }
+  .header .partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .header .header__contact {
+    grid-column: 1/span 5;
+    flex-direction: column;
+    justify-content: center; }
 
 .nav {
   grid-column: 1/span 12;
@@ -262,16 +291,22 @@ body {
     list-style: none;
     display: inline; }
   .nav .nav__link {
-    text-decoration: none; }
+    color: #1A1A1A;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: 0.2s;
+    margin-left: 2rem; }
+    .nav .nav__link:hover, .nav .nav__link:active, .nav .nav__link:focus {
+      color: rgba(26, 26, 26, 0.7); }
   .nav .nav__logo {
     display: block;
     text-decoration: none;
     font-family: "Gudea", sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 24px; }
     .nav .nav__logo span {
-      font-weight: regular;
-      font-style: italic; }
+      font-style: italic;
+      font-weight: 400; }
 
 .nav--desktop {
   display: none;
@@ -280,11 +315,9 @@ body {
   @media only screen and (min-width: 1024px) {
     .nav--desktop {
       display: flex; } }
-  .nav--desktop .nav__link {
-    color: #1A1A1A;
-    margin-left: 2rem; }
-    .nav--desktop .nav__link:hover {
-      color: #D8D8D8; }
+  .nav--desktop .nav__link--wrap {
+    margin: 0;
+    padding: 0; }
 
 .nav--desktop.scrolled {
   color: #1A1A1A;
@@ -332,6 +365,26 @@ body {
           margin-top: 0.75rem;
           margin-bottom: 0.75rem; } }
 
+.btn {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5rem 1.25rem;
+  transition: 0.2s; }
+
+.btn--primary {
+  color: #2A8C57;
+  background-color: transparent;
+  border: 1px solid #2A8C57;
+  border-radius: 0.25rem; }
+  .btn--primary:hover, .btn--primary:active, .btn--primary:focus {
+    color: #FFFFFF;
+    background-color: #2A8C57; }
+
 .burger {
   width: 20px;
   height: 3px;
@@ -358,25 +411,5 @@ body {
   .burger--active:after {
     top: 0;
     transform: rotate(-45deg); }
-
-.btn {
-  display: inline-block;
-  font-size: 0.875rem;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  line-height: 1.6;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 0.5rem 1.25rem;
-  transition: 0.2s; }
-
-.btn--primary {
-  color: #2A8C57;
-  background-color: transparent;
-  border: 1px solid #2A8C57;
-  border-radius: 0.25rem; }
-  .btn--primary:hover, .btn--primary:active, .btn--primary:focus {
-    color: #FFFFFF;
-    background-color: #2A8C57; }
 
 /*# sourceMappingURL=main.css.map */
