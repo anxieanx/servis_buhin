@@ -46,20 +46,23 @@ h6 {
 a {
   outline-width: 0;
   color: $color-primary;
+  text-decoration: none;
   transition: $transition-time;
 }
 
 a:hover, a:focus, a:active {
   color: lighten($color-primary, 5%);
+  text-decoration: underline;
 }
 
 .link {
-  color: rgba($color-primary, 0.8);
+  color: $color-primary;
   text-decoration: none;
   transition: $transition-time;
 }
 
 .link:hover, .link:focus, .link:active {
+  color: lighten($color-primary, 5%);
   text-decoration: underline;
 }
 
@@ -73,5 +76,14 @@ b, strong, .strong {
 p {
   font-family: $base-font-family;
   font-size: $base-font-size;
+  margin-bottom: 1.5rem;
+}
+
+q {
+  @include font-size($h4-font-sizes);
+
+  color: $white;
+  font-family: $base-font-family;
+  line-height: 1.6;
   margin-bottom: 1.5rem;
 }

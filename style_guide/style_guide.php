@@ -56,7 +56,6 @@
 			<h3 class="section__title">Tipografija</h3><code>(css/scss/abstracts/variables.scss, css/scss/base/typography.scss)</code>
 			<div class="section__desc--wrap">
 				<p class="section__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis odio vitae lacinia bibendum. Suspendisse lacinia id libero vel cursus. Suspendisse mollis sem massa, eu malesuada ex pulvinar ut. In malesuada lacus arcu, ac venenatis risus pulvinar sit amet. Donec fermentum diam libero, non varius tortor ornare id. Suspendisse potenti. Duis tempor laoreet aliquet. Vestibulum luctus sit amet eros a varius. Vivamus eget condimentum est. Curabitur et convallis mi. Donec vel ante non lacus pellentesque faucibus.</p>
-				<p class="section__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis odio vitae lacinia bibendum. Suspendisse lacinia id libero vel cursus. Suspendisse mollis sem massa, eu malesuada ex pulvinar ut. In malesuada lacus arcu, ac venenatis risus pulvinar sit amet. Donec fermentum diam libero, non varius tortor ornare id. Suspendisse potenti. Duis tempor laoreet aliquet. Vestibulum luctus sit amet eros a varius. Vivamus eget condimentum est. Curabitur et convallis mi. Donec vel ante non lacus pellentesque faucibus.</p>
 				<div class="section__desc">
 					<h1>H1</h1>
 					<h2>H2</h2>
@@ -64,11 +63,9 @@
 					<h4>H4</h4>
 					<h5>H5</h5>
 					<h6>H6</h6>
-				</div>
-				<div class="section__desc">
-					<p>Ovo je paragraf.</p>
-					<a href="link">Ovo je poveznica.</a>
-					<p>Quote - TO DO</p>
+					<p>Ovo je paragraf</p>
+					<q class="quote--style-guide">Ovo je citat</q>
+					<a href="link">Ovo je poveznica</a>
 				</div>
 			</div>
 		</section>
@@ -77,24 +74,42 @@
 		<section class="section--style-guide">
 			<h3 class="section__title">Logo</h3><code>(css/scss/layout/nav.scss)</code>
 			<div class="section__desc--wrap">
-				<div class="section__desc"><a href="index.php" class="logo"><span>Servis</span> Buhin</a></div>
 				<p class="section__desc">Nam sit amet magna neque. Quisque consectetur magna nibh, ut maximus enim malesuada at. Praesent fringilla lacinia elit, vel maximus purus pellentesque dapibus. Phasellus et nibh mattis, varius velit eu, tincidunt ex. Sed sit amet aliquet arcu. Ut a nisi tristique, cursus sem at, ultrices odio. Etiam blandit lacus sem, eu consequat justo facilisis a. Vestibulum vel lacus urna. Praesent blandit risus quis turpis vestibulum, viverra dapibus quam malesuada. Vivamus scelerisque feugiat odio. Maecenas massa justo, lacinia eu tempor at, dictum nec tellus.</p>
+				<div class="section__desc"><a href="index.php" class="logo"><span>Servis</span> Buhin</a></div>
 			</div>
 		</section>
 
 		<!-- Icons -->
 		<section class="section--style-guide">
-			<h3 class="section__title">Ikone</h3><code>(css/scss/layout/nav.scss)</code>
+			<h3 class="section__title">Ikone</h3><code>(img/icons)</code>
 		</section>
 
 		<!-- Layout -->
 		<section class="section--style-guide">
 			<h3 class="section__title">Layout</h3><code>(css/scss/layout/grid.scss)</code>
+			<div class="grid grid--12">
+				<div class="col col--1">1</div>
+				<div class="col col--1">1</div>
+				<div class="col col--1">1</div>
+				<div class="col col--1">1</div>
+				<div class="col col--1">1</div>
+				<div class="col col--1">1</div>
+				<div class="col col--1">1</div>
+				<div class="col col--1">1</div>
+				<div class="col col--1">1</div>
+				<div class="col col--1">1</div>
+				<div class="col col--1">1</div>
+				<div class="col col--1">1</div>
+				<div class="col col--6">6</div>
+				<div class="col col--6">6</div>
+				<div class="col col--8">8</div>
+				<div class="col col--4">4</div>
+			</div>
 		</section>
 
 		<!-- Navigation -->
 		<section class="section--style-guide">
-			<h3 class="section__title">Navigacija</h3><code>(css/scss/layout/nav.scss)</code>
+			<h3 class="section__title">Navigacija</h3><code>(css/scss/layout/nav.scss, css/scss/components/burger.scss)</code>
 			<nav class="nav nav--mobile">
 				<a href="index.php" class="nav__logo"><span>Servis</span> Buhin</a>
 
@@ -123,7 +138,16 @@
 
 		<!-- Header -->
 		<section class="section--style-guide">
-			<h3 class="section__title">Header</h3><code>(css/scss/layout/nav.scss)</code>
+			<h3 class="section__title">Header</h3><code>(css/scss/layout/header.scss)</code>
+			<header class="header grid--12">
+				<div class="header__info">
+					<h1 class="header__title">Servisiranje<br />i popravak</h1>
+					<p class="header__desc">Plinskih trošila</p>
+					<a href="#" class="btn btn--primary">Saznaj više</a>
+				</div>
+
+				<div class="header__img--wrap"></div>		
+			</header>
 		</section>
 
 		<!-- Footer -->
@@ -143,12 +167,18 @@
 
 		<!-- Buttons -->
 		<section class="section--style-guide">
-			<h3 class="section__title">Buttons</h3><code>(css/scss/layout/nav.scss)</code>
+			<h3 class="section__title">Buttons</h3><code>(css/scss/components/btn.scss)</code>
+			<div class="section__desc--wrap">
+				<div class="section__desc">
+					<button class="btn btn--primary">Primarni</button>
+					<button class="btn btn--secondary">Sekundarni</button>
+				</div>	
+			</div>
 		</section>
 
 		<!-- Inputs -->
 		<section class="section--style-guide">
-			<h3 class="section__title">Inputs</h3><code>(css/scss/layout/nav.scss)</code>
+			<h3 class="section__title">Inputs</h3><code>(css/scss/components/form.scss)</code>
 			<form class="form">
 				<div class="form__field">
 					<label for="name" class="form__label">Ime i prezime</label> 
@@ -172,11 +202,24 @@
 		<!-- Cookies -->
 		<section class="section--style-guide">
 			<h3 class="section__title">Cookies</h3><code>(css/scss/layout/nav.scss)</code>
+			<div class="cookies cookies--style-guide">
+				<div class="cookies__text">Servis Buhin koristi kolačiće za pružanje boljeg korisničkog iskustva i funkcionalnosti stranice - <a href="https://www.aboutcookies.org/">saznaj više</a>.</div>
+				<div class="btn btn--primary cookies__btn">Shvaćam</div>
+			</div>
 		</section>
 
 		<!-- Error -->
 		<section class="section--style-guide">
-			<h3 class="section__title">Error</h3><code>(css/scss/layout/nav.scss)</code>
+			<h3 class="section__title">Error</h3><code>(css/scss/layout/header.scss)</code>
+			<header class="header grid--12">
+				<div class="header__info">
+					<h1 class="header__title">404</h1>
+					<p class="header__desc">Stranica nije pronađena</p>
+					<a href="#" class="btn btn--primary">Povratak</a>
+				</div>
+
+				<div class="header__img--wrap"></div>		
+			</header>
 		</section>
 		
 	</main>
