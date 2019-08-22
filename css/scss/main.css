@@ -169,6 +169,30 @@ p {
   font-size: 16px;
   margin-bottom: 1.5rem; }
 
+q {
+  font-size: 1.25rem;
+  line-height: 1.2;
+  color: #FFFFFF;
+  font-family: "Mukta Malar", sans-serif;
+  line-height: 1.6;
+  margin-bottom: 1.5rem; }
+  @media screen and (min-width: 640px) {
+    q {
+      font-size: 1.25rem;
+      line-height: 1.2; } }
+  @media screen and (min-width: 1024px) {
+    q {
+      font-size: 1.25rem;
+      line-height: 1.2; } }
+  @media screen and (min-width: 1200px) {
+    q {
+      font-size: 1.25rem;
+      line-height: 1.2; } }
+  @media screen and (min-width: 1440px) {
+    q {
+      font-size: 1.25rem;
+      line-height: 1.2; } }
+
 html {
   font-family: "Mukta Malar", sans-serif;
   font-size: 16px;
@@ -532,12 +556,10 @@ body {
   .color--wrap .color--black {
     background-color: #1A1A1A; }
 
-/* FOOTER */
-.footer--style-guide {
-  height: auto;
-  border-top: 1px solid #D8D8D8;
-  padding-top: 1.25rem;
-  padding-bottom: 1.75rem; }
+/* TYPOGRAPHY */
+.quote--style-guide {
+  display: block;
+  color: #1A1A1A; }
 
 /* LOGO */
 .logo {
@@ -550,6 +572,30 @@ body {
   .logo span {
     font-style: italic;
     font-weight: 400; }
+
+/* LAYOUT */
+.col {
+  grid-column: auto/span 1;
+  color: #1A1A1A;
+  background-color: #D8D8D8;
+  text-align: center;
+  margin-bottom: 1em;
+  padding: 0.5rem; }
+  .col--1 {
+    grid-column: auto/span 1; }
+  .col--4 {
+    grid-column: auto/span 4; }
+  .col--6 {
+    grid-column: auto/span 6; }
+  .col--8 {
+    grid-column: auto/span 8; }
+
+/* FOOTER */
+.footer--style-guide {
+  height: auto;
+  border-top: 1px solid #D8D8D8;
+  padding-top: 1.25rem;
+  padding-bottom: 1.75rem; }
 
 /* COOKIES */
 .cookies--style-guide {

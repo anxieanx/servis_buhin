@@ -78,3 +78,12 @@ p {
   font-size: $base-font-size;
   margin-bottom: 1.5rem;
 }
+
+q {
+  @include font-size($h4-font-sizes);
+
+  color: $white;
+  font-family: $base-font-family;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
