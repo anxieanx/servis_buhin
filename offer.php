@@ -34,17 +34,27 @@
 		<header class="header grid--12">
 			<div class="header__offer">
 				<h2>PONUDA</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.</p>
 
 				<div class="services">
-				<p>Popravak</p>
-				<p>Servis</p>
-				<p>Garancija</p>
-				<p>Proljetna akcija</p>
+					<div class="service__item">
+						<h4>Servis</h4>
+							<p>Servisiranje bojlera obavlja se jednom godišnje čime se dobiva pouzdan, siguran i ekonomičan rad uređaja.</p>
+					</div>
+					<div class="service__item">
+						<h4>Popravak i montaža</h4>
+							<p>Popravak plinskih uređaja, montaža instalacije vode, plina, grijanja i plinskih uređaja.</p>
+					</div>
+					<div class="service__item">	
+						<h4>Jamstvo</h4>
+							<p>Jamstvo na originalne rezervne dijelove ugrađene u našem ovlaštenom servisu iznosi 6 mjeseci.</p>
+					</div>
+					<div class="service__item">
+						<h4>Proljetna akcija</h4>
+							<p>Proljetno servisiranje plinskih i kombi bojlera tijekom svibnja i lipnja po povoljnijim cijenama.</p>
+					</div>
 				</div>
 
 
-				<p>Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. </p>
 				<a href="#" class="btn btn--primary">Kontaktirajte nas</a>
 			</div>
 

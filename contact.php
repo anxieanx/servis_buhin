@@ -33,7 +33,7 @@
 
 		<header class="header grid--12">
 			<div class="header__contact">
-				<h2>KONTAKT</h2>
+				<h2 class="header__subtitle">Kontakt</h2>
 				<p>Ukoliko imate bilo kakav upit, slobodno nas kontaktirajte!</p>
 
 
@@ -51,7 +51,7 @@
 					 <textarea class="form__textarea" name="message" rows="5"></textarea><br />
 				</div>
 				<div class="form__btn">
-					<input class="btn" type="submit" value="POŠALJI">
+					<input class="btn btn--secondary" type="submit" value="POŠALJI">
 				</div>
 			</form>
 
