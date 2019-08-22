@@ -46,20 +46,23 @@ h6 {
 a {
   outline-width: 0;
   color: $color-primary;
+  text-decoration: none;
   transition: $transition-time;
 }
 
 a:hover, a:focus, a:active {
   color: lighten($color-primary, 5%);
+  text-decoration: underline;
 }
 
 .link {
-  color: rgba($color-primary, 0.8);
+  color: $color-primary;
   text-decoration: none;
   transition: $transition-time;
 }
 
 .link:hover, .link:focus, .link:active {
+  color: lighten($color-primary, 5%);
   text-decoration: underline;
 }
 

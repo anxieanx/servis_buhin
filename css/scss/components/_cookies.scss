@@ -1,0 +1,23 @@
+.cookies {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+	border: 1px solid $color-gray--light;
+	border-radius: $button-radius;
+	position: fixed;
+	bottom: 8rem;
+	left: 10%;
+	padding: 0.625rem 1.25rem;
+
+	.cookies__text {
+		color: $color-gray;
+		font-size: 0.875rem;
+	}
+
+	.cookies__btn {
+		font-size: 0.75rem;
+		margin-left: 1.5rem;
+		padding: 0.25rem 0.75rem;
+	}
+}

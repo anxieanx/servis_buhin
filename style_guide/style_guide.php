@@ -84,7 +84,7 @@
 
 		<!-- Icons -->
 		<section class="section--style-guide">
-			<h3 class="section__title">Ikone</h3><code>(css/scss/layout/nav.scss)</code>
+			<h3 class="section__title">Ikone</h3><code>(img/icons)</code>
 		</section>
 
 		<!-- Layout -->
@@ -94,7 +94,7 @@
 
 		<!-- Navigation -->
 		<section class="section--style-guide">
-			<h3 class="section__title">Navigacija</h3><code>(css/scss/layout/nav.scss)</code>
+			<h3 class="section__title">Navigacija</h3><code>(css/scss/layout/nav.scss, css/scss/components/burger.scss)</code>
 			<nav class="nav nav--mobile">
 				<a href="index.php" class="nav__logo"><span>Servis</span> Buhin</a>
 
@@ -123,7 +123,16 @@
 
 		<!-- Header -->
 		<section class="section--style-guide">
-			<h3 class="section__title">Header</h3><code>(css/scss/layout/nav.scss)</code>
+			<h3 class="section__title">Header</h3><code>(css/scss/layout/header.scss)</code>
+			<header class="header grid--12">
+				<div class="header__info">
+					<h1 class="header__title">Servisiranje<br />i popravak</h1>
+					<p class="header__desc">Plinskih trošila</p>
+					<a href="#" class="btn btn--primary">Saznaj više</a>
+				</div>
+
+				<div class="header__img--wrap"></div>		
+			</header>
 		</section>
 
 		<!-- Footer -->
@@ -143,12 +152,18 @@
 
 		<!-- Buttons -->
 		<section class="section--style-guide">
-			<h3 class="section__title">Buttons</h3><code>(css/scss/layout/nav.scss)</code>
+			<h3 class="section__title">Buttons</h3><code>(css/scss/components/btn.scss)</code>
+			<div class="section__desc--wrap">
+				<div class="section__desc">
+					<button class="btn btn--primary">Primarni</button>
+					<button class="btn btn--secondary">Sekundarni</button>
+				</div>	
+			</div>
 		</section>
 
 		<!-- Inputs -->
 		<section class="section--style-guide">
-			<h3 class="section__title">Inputs</h3><code>(css/scss/layout/nav.scss)</code>
+			<h3 class="section__title">Inputs</h3><code>(css/scss/components/form.scss)</code>
 			<form class="form">
 				<div class="form__field">
 					<label for="name" class="form__label">Ime i prezime</label> 
@@ -172,11 +187,24 @@
 		<!-- Cookies -->
 		<section class="section--style-guide">
 			<h3 class="section__title">Cookies</h3><code>(css/scss/layout/nav.scss)</code>
+			<div class="cookies cookies--style-guide">
+				<div class="cookies__text">Servis Buhin koristi kolačiće za pružanje boljeg korisničkog iskustva i funkcionalnosti stranice - <a href="https://www.aboutcookies.org/">saznaj više</a>.</div>
+				<div class="btn btn--primary cookies__btn">Shvaćam</div>
+			</div>
 		</section>
 
 		<!-- Error -->
 		<section class="section--style-guide">
-			<h3 class="section__title">Error</h3><code>(css/scss/layout/nav.scss)</code>
+			<h3 class="section__title">Error</h3><code>(css/scss/layout/header.scss)</code>
+			<header class="header grid--12">
+				<div class="header__info">
+					<h1 class="header__title">404</h1>
+					<p class="header__desc">Stranica nije pronađena</p>
+					<a href="#" class="btn btn--primary">Povratak</a>
+				</div>
+
+				<div class="header__img--wrap"></div>		
+			</header>
 		</section>
 		
 	</main>

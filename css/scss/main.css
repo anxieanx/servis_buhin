@@ -144,17 +144,20 @@ h6 {
 a {
   outline-width: 0;
   color: #2A8C57;
+  text-decoration: none;
   transition: 0.2s; }
 
 a:hover, a:focus, a:active {
-  color: #30a063; }
+  color: #30a063;
+  text-decoration: underline; }
 
 .link {
-  color: rgba(42, 140, 87, 0.8);
+  color: #2A8C57;
   text-decoration: none;
   transition: 0.2s; }
 
 .link:hover, .link:focus, .link:active {
+  color: #30a063;
   text-decoration: underline; }
 
 /* OTHER */
@@ -389,8 +392,9 @@ body {
   border: 1px solid #2A8C57;
   border-radius: 0.25rem; }
   .btn--secondary:hover, .btn--secondary:active, .btn--secondary:focus {
-    color: #2A8C57;
-    background-color: transparent; }
+    color: #FFFFFF;
+    background-color: #30a063;
+    border-color: #30a063; }
 
 .burger {
   width: 20px;
@@ -418,6 +422,25 @@ body {
   .burger--active:after {
     top: 0;
     transform: rotate(-45deg); }
+
+.cookies {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  border: 1px solid #D8D8D8;
+  border-radius: 0.25rem;
+  position: fixed;
+  bottom: 8rem;
+  left: 10%;
+  padding: 0.625rem 1.25rem; }
+  .cookies .cookies__text {
+    color: #A1A1A1;
+    font-size: 0.875rem; }
+  .cookies .cookies__btn {
+    font-size: 0.75rem;
+    margin-left: 1.5rem;
+    padding: 0.25rem 0.75rem; }
 
 .form .form__field {
   margin-bottom: 1.5rem; }
@@ -527,3 +550,7 @@ body {
   .logo span {
     font-style: italic;
     font-weight: 400; }
+
+/* COOKIES */
+.cookies--style-guide {
+  position: static; }
