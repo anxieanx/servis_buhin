@@ -32,31 +32,20 @@
 		?>
 
 		<header class="header grid--12">
-			<div class="header__contact">
-				<h2>KONTAKT</h2>
-				<p>Ukoliko imate bilo kakav upit, slobodno nas kontaktirajte!</p>
+			<div class="header__offer">
+				<h2>PONUDA</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.</p>
+
+				<div class="services">
+				<p>Popravak</p>
+				<p>Servis</p>
+				<p>Garancija</p>
+				<p>Proljetna akcija</p>
+				</div>
 
 
-			<form class="form" action="mail.php" method="POST">
-				<div class="form__field">
-					<label for="name" class="form__label">IME I PREZIME</label> 
-					<input class="form__input" type="text" name="name">
-				</div>
-				<div class="form__field">
-					<label for="name" class="form__label">EMAIL</label> 
-					<input class="form__input" type="text" name="tel">
-				</div>
-				<div class="form__field">
-					 <label for="message" class="form__label">UPIT</label>
-					 <textarea class="form__textarea" name="message" rows="5"></textarea><br />
-				</div>
-				<div class="form__btn">
-					<input class="btn" type="submit" value="POŠALJI">
-				</div>
-			</form>
-
-			<div id="mapid" class="map"></div>
-
+				<p>Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. </p>
+				<a href="#" class="btn btn--primary">Kontaktirajte nas</a>
 			</div>
 
 			<div class="header__img--wrap">

@@ -16,7 +16,6 @@
 /* http://www.zell-weekeat.com/responsive-typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Palanquin Dark", sans-serif;
-  font-weight: 400;
   margin: 0;
   margin-bottom: 0.5em;
   padding: 0; }
@@ -258,6 +257,26 @@ body {
     grid-column: 9/span 4;
     width: calc(100% + 6rem);
     background-color: #2A8C57; }
+  .header .header__offer {
+    grid-column: 1/span 5;
+    flex-direction: column;
+    justify-content: center; }
+  .header .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .header .header__about {
+    grid-column: 1/span 6;
+    flex-direction: column;
+    justify-content: center; }
+  .header .partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .header .header__contact {
+    grid-column: 1/span 5;
+    flex-direction: column;
+    justify-content: center; }
 
 .nav {
   grid-column: 1/span 12;
