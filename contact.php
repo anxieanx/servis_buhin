@@ -33,33 +33,33 @@
 
 		<header class="header grid--12">
 			<div class="header__contact">
-				<h2>KONTAKT</h2>
+				<h2 class="header__subtitle">Kontakt</h2>
 				<p>Ukoliko imate bilo kakav upit, slobodno nas kontaktirajte!</p>
 
 
 			<form class="form" action="mail.php" method="POST">
 				<div class="form__field">
-					<label for="name" class="form__label">IME I PREZIME</label> 
+					<label for="name" class="form__label">Ime i prezime</label> 
 					<input class="form__input" type="text" name="name">
 				</div>
 				<div class="form__field">
-					<label for="name" class="form__label">EMAIL</label> 
+					<label for="name" class="form__label">Email</label> 
 					<input class="form__input" type="text" name="tel">
 				</div>
 				<div class="form__field">
-					 <label for="message" class="form__label">UPIT</label>
+					 <label for="message" class="form__label">Upit</label>
 					 <textarea class="form__textarea" name="message" rows="5"></textarea><br />
 				</div>
 				<div class="form__btn">
-					<input class="btn" type="submit" value="POŠALJI">
+					<input class="btn btn--secondary" type="submit" value="POŠALJI">
 				</div>
 			</form>
-
-			<div id="mapid" class="map"></div>
 
 			</div>
 
 			<div class="header__img--wrap">
+
+				<div id="mapid" class="map"></div>
 				
 			</div>		
 		</header>

@@ -280,10 +280,6 @@ body {
     margin-bottom: 2rem; }
   .header .btn--primary {
     align-self: flex-end; }
-  .header .header__img--wrap {
-    grid-column: 9/span 4;
-    width: calc(100% + 6rem);
-    background-color: #2A8C57; }
   .header .header__offer {
     grid-column: 1/span 5;
     flex-direction: column;
@@ -304,6 +300,17 @@ body {
     grid-column: 1/span 5;
     flex-direction: column;
     justify-content: center; }
+
+.header__subtitle {
+  text-transform: uppercase; }
+
+.header__img--wrap {
+  grid-column: 9/span 4;
+  width: calc(100% + 6rem);
+  background-color: #2A8C57;
+  position: relative;
+  text-align: center;
+  color: white; }
 
 .nav {
   grid-column: 1/span 12;
@@ -466,29 +473,35 @@ body {
     margin-left: 1.5rem;
     padding: 0.25rem 0.75rem; }
 
-.form .form__field {
-  margin-bottom: 1.5rem; }
-.form .form__label {
-  display: block;
-  color: #A1A1A1;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  margin-bottom: 0.25rem; }
-.form .form__input,
-.form .form__textarea {
-  color: #1A1A1A;
-  border: 1px solid #D8D8D8;
-  border-radius: 0.25rem;
-  font-size: 1rem;
-  resize: none;
-  padding: 0.625rem 1.25rem;
-  transition: 0.2s; }
-  .form .form__input:focus,
-  .form .form__textarea:focus {
-    border-color: #2A8C57;
-    outline: 0; }
-.form .form__btn {
-  margin-top: 2.5rem; }
+.form {
+  grid-column: 1/span 3;
+  display: flex;
+  flex-direction: column; }
+  .form .form__field {
+    margin-bottom: 1.5rem; }
+  .form .form__label {
+    display: block;
+    color: #A1A1A1;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem; }
+  .form .form__input,
+  .form .form__textarea {
+    width: 100%;
+    color: #1A1A1A;
+    border: 1px solid #D8D8D8;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    resize: none;
+    padding: 0.625rem 1.25rem;
+    transition: 0.2s; }
+    .form .form__input:focus,
+    .form .form__textarea:focus {
+      border-color: #2A8C57;
+      outline: 0; }
+  .form .form__btn {
+    align-self: flex-end;
+    margin-top: 2.5rem; }
 
 .gallery--wrap {
   grid-column: 1/span 12;
@@ -543,6 +556,25 @@ body {
     height: 100%;
     border-radius: 0.25rem;
     object-fit: cover; }
+
+.map {
+  width: 100%;
+  height: 70%;
+  position: relative;
+  top: 15%;
+  right: 25%; }
+  .map .leaflet-pane {
+    z-index: 3 !important; }
+  .map .leaflet-bottom.leaflet-right {
+    z-index: 3 !important; }
+
+.services {
+  display: flex;
+  flex-wrap: wrap; }
+
+.service__item {
+  width: 50%;
+  margin-bottom: 3 rem; }
 
 /* NAVIGATION */
 .nav--style-guide {
@@ -654,6 +686,30 @@ body {
 /* COOKIES */
 .cookies--style-guide {
   position: static; }
+
+.about {
+  grid-column: 1/span 8;
+  height: calc(100vh - 14rem);
+  max-width: 90%; }
+  .about .about__img--wrap {
+    display: flex;
+    align-items: center; }
+  .about .about__img {
+    display: block;
+    width: 30%;
+    height: auto; }
+    .about .about__img img {
+      width: 100%;
+      height: auto; }
+
+.quote__img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 100%;
+  object-fit: cover;
+  position: absolute;
+  bottom: 20%;
+  right: 60%; }
 
 /**
  * Owl Carousel v2.3.4
