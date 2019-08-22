@@ -47,11 +47,12 @@
 		margin-left: 2rem;
 	}
 
-	.section__desc {
+	.section__desc--wrap {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
 
-		p {
+		.section__desc {
 			width: 45%;
 		}
 	}
@@ -112,4 +113,21 @@
 	border-top: 1px solid $color-gray--light;
 	padding-top: 1.25rem;
 	padding-bottom: 1.75rem;
+}
+
+
+/* LOGO */
+
+.logo {
+	display: block;
+	text-decoration: none;
+	font-family: $logo-font-family;
+	font-size: 1.5rem;
+	font-weight: $bold;
+	text-transform: uppercase;
+	
+	span {
+		font-style: italic;
+		font-weight: $regular;
+	}
 }

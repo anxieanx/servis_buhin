@@ -32,16 +32,16 @@
 		<!-- About -->
 		<section class="section--style-guide">
 			<h2 class="section__title">O projektu</h2>
-			<div class="section__desc">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis odio vitae lacinia bibendum. Suspendisse lacinia id libero vel cursus. Suspendisse mollis sem massa, eu malesuada ex pulvinar ut. In malesuada lacus arcu, ac venenatis risus pulvinar sit amet. Donec fermentum diam libero, non varius tortor ornare id. Suspendisse potenti. Duis tempor laoreet aliquet. Vestibulum luctus sit amet eros a varius. Vivamus eget condimentum est. Curabitur et convallis mi. Donec vel ante non lacus pellentesque faucibus.</p>
-				<p>Nam sit amet magna neque. Quisque consectetur magna nibh, ut maximus enim malesuada at. Praesent fringilla lacinia elit, vel maximus purus pellentesque dapibus. Phasellus et nibh mattis, varius velit eu, tincidunt ex. Sed sit amet aliquet arcu. Ut a nisi tristique, cursus sem at, ultrices odio. Etiam blandit lacus sem, eu consequat justo facilisis a. Vestibulum vel lacus urna. Praesent blandit risus quis turpis vestibulum, viverra dapibus quam malesuada. Vivamus scelerisque feugiat odio. Maecenas massa justo, lacinia eu tempor at, dictum nec tellus.</p>
+			<div class="section__desc--wrap">
+				<p class="section__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis odio vitae lacinia bibendum. Suspendisse lacinia id libero vel cursus. Suspendisse mollis sem massa, eu malesuada ex pulvinar ut. In malesuada lacus arcu, ac venenatis risus pulvinar sit amet. Donec fermentum diam libero, non varius tortor ornare id. Suspendisse potenti. Duis tempor laoreet aliquet. Vestibulum luctus sit amet eros a varius. Vivamus eget condimentum est. Curabitur et convallis mi. Donec vel ante non lacus pellentesque faucibus.</p>
+				<p class="section__desc">Nam sit amet magna neque. Quisque consectetur magna nibh, ut maximus enim malesuada at. Praesent fringilla lacinia elit, vel maximus purus pellentesque dapibus. Phasellus et nibh mattis, varius velit eu, tincidunt ex. Sed sit amet aliquet arcu. Ut a nisi tristique, cursus sem at, ultrices odio. Etiam blandit lacus sem, eu consequat justo facilisis a. Vestibulum vel lacus urna. Praesent blandit risus quis turpis vestibulum, viverra dapibus quam malesuada. Vivamus scelerisque feugiat odio. Maecenas massa justo, lacinia eu tempor at, dictum nec tellus.</p>
 			</div>
 		</section>
 
 		<!-- Colors -->
 		<section class="section--style-guide">
-			<h3 class="section__title">Colors</h3><code>(css/scss/abstracts/variables.scss)</code>
-			<div class="section__desc">
+			<h3 class="section__title">Boje</h3><code>(css/scss/abstracts/variables.scss)</code>
+			<div class="section__desc--wrap">
 				<div class="color--wrap"><span>Primary Color</span><div class="color color--primary"></div><span>#2a8c57</span></div>
 				<div class="color--wrap"><span>White</span><div class="color color--white"></div><span>#ffffff</span></div>
 				<div class="color--wrap"><span>Light Gray</span><div class="color color--gray-light"></div><span>#d8d8d8</span></div>
@@ -53,13 +53,131 @@
 
 		<!-- Typography -->
 		<section class="section--style-guide">
-			<h3 class="section__title">Typography</h3><code>(css/scss/abstracts/variables.scss, css/scss/base/typography.scss)</code>
-			<div class="section__desc">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis odio vitae lacinia bibendum. Suspendisse lacinia id libero vel cursus. Suspendisse mollis sem massa, eu malesuada ex pulvinar ut. In malesuada lacus arcu, ac venenatis risus pulvinar sit amet. Donec fermentum diam libero, non varius tortor ornare id. Suspendisse potenti. Duis tempor laoreet aliquet. Vestibulum luctus sit amet eros a varius. Vivamus eget condimentum est. Curabitur et convallis mi. Donec vel ante non lacus pellentesque faucibus.</p>
-				<p>Nam sit amet magna neque. Quisque consectetur magna nibh, ut maximus enim malesuada at. Praesent fringilla lacinia elit, vel maximus purus pellentesque dapibus. Phasellus et nibh mattis, varius velit eu, tincidunt ex. Sed sit amet aliquet arcu. Ut a nisi tristique, cursus sem at, ultrices odio. Etiam blandit lacus sem, eu consequat justo facilisis a. Vestibulum vel lacus urna. Praesent blandit risus quis turpis vestibulum, viverra dapibus quam malesuada. Vivamus scelerisque feugiat odio. Maecenas massa justo, lacinia eu tempor at, dictum nec tellus.</p>
+			<h3 class="section__title">Tipografija</h3><code>(css/scss/abstracts/variables.scss, css/scss/base/typography.scss)</code>
+			<div class="section__desc--wrap">
+				<p class="section__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis odio vitae lacinia bibendum. Suspendisse lacinia id libero vel cursus. Suspendisse mollis sem massa, eu malesuada ex pulvinar ut. In malesuada lacus arcu, ac venenatis risus pulvinar sit amet. Donec fermentum diam libero, non varius tortor ornare id. Suspendisse potenti. Duis tempor laoreet aliquet. Vestibulum luctus sit amet eros a varius. Vivamus eget condimentum est. Curabitur et convallis mi. Donec vel ante non lacus pellentesque faucibus.</p>
+				<p class="section__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis odio vitae lacinia bibendum. Suspendisse lacinia id libero vel cursus. Suspendisse mollis sem massa, eu malesuada ex pulvinar ut. In malesuada lacus arcu, ac venenatis risus pulvinar sit amet. Donec fermentum diam libero, non varius tortor ornare id. Suspendisse potenti. Duis tempor laoreet aliquet. Vestibulum luctus sit amet eros a varius. Vivamus eget condimentum est. Curabitur et convallis mi. Donec vel ante non lacus pellentesque faucibus.</p>
+				<div class="section__desc">
+					<h1>H1</h1>
+					<h2>H2</h2>
+					<h3>H3</h3>
+					<h4>H4</h4>
+					<h5>H5</h5>
+					<h6>H6</h6>
+				</div>
+				<div class="section__desc">
+					<p>Ovo je paragraf.</p>
+					<a href="link">Ovo je poveznica.</a>
+					<p>Quote - TO DO</p>
+				</div>
 			</div>
 		</section>
 
+		<!-- Logo -->
+		<section class="section--style-guide">
+			<h3 class="section__title">Logo</h3><code>(css/scss/layout/nav.scss)</code>
+			<div class="section__desc--wrap">
+				<div class="section__desc"><a href="index.php" class="logo"><span>Servis</span> Buhin</a></div>
+				<p class="section__desc">Nam sit amet magna neque. Quisque consectetur magna nibh, ut maximus enim malesuada at. Praesent fringilla lacinia elit, vel maximus purus pellentesque dapibus. Phasellus et nibh mattis, varius velit eu, tincidunt ex. Sed sit amet aliquet arcu. Ut a nisi tristique, cursus sem at, ultrices odio. Etiam blandit lacus sem, eu consequat justo facilisis a. Vestibulum vel lacus urna. Praesent blandit risus quis turpis vestibulum, viverra dapibus quam malesuada. Vivamus scelerisque feugiat odio. Maecenas massa justo, lacinia eu tempor at, dictum nec tellus.</p>
+			</div>
+		</section>
+
+		<!-- Icons -->
+		<section class="section--style-guide">
+			<h3 class="section__title">Ikone</h3><code>(css/scss/layout/nav.scss)</code>
+		</section>
+
+		<!-- Layout -->
+		<section class="section--style-guide">
+			<h3 class="section__title">Layout</h3><code>(css/scss/layout/grid.scss)</code>
+		</section>
+
+		<!-- Navigation -->
+		<section class="section--style-guide">
+			<h3 class="section__title">Navigacija</h3><code>(css/scss/layout/nav.scss)</code>
+			<nav class="nav nav--mobile">
+				<a href="index.php" class="nav__logo"><span>Servis</span> Buhin</a>
+
+				<div class="burger"></div>
+				<div class="nav--burger">
+					<ul class="nav__link--wrap">
+						<li><a href="ponuda.php" class="nav__link">Ponuda</a></li>
+						<li><a href="about.php" class="nav__link">O nama</a></li>
+						<li><a href="gallery.php" class="nav__link">Galerija</a></li>
+						<li><a href="contact.php" class="nav__link">Kontakt</a></li>
+					</ul>
+				</div>
+			</nav>
+
+			<nav class="nav nav--desktop">
+				<a href="index.php" class="nav__logo"><span>Servis</span> Buhin</a>
+
+				<ul class="nav__link--wrap">
+					<li><a href="ponuda.php" class="nav__link">Ponuda</a></li>
+					<li><a href="about.php" class="nav__link">O nama</a></li>
+					<li><a href="gallery.php" class="nav__link">Galerija</a></li>
+					<li><a href="contact.php" class="nav__link">Kontakt</a></li>
+				</ul>
+			</nav>
+		</section>
+
+		<!-- Header -->
+		<section class="section--style-guide">
+			<h3 class="section__title">Header</h3><code>(css/scss/layout/nav.scss)</code>
+		</section>
+
+		<!-- Footer -->
+		<section class="section--style-guide">
+			<h3 class="section__title">Footer</h3><code>(css/scss/layout/footer.scss)</code>
+			<div class="footer">
+				<div class="footer__address"> Psunjska 78, 31 000 Osijek </div>
+
+				<div class="footer__number--wrap">
+					<a href="tel:+385-031-301-622" class="footer__number">031 301 622</a>
+					<a href="tel:+385-091-230-1622" class="footer__number">091 2301 622</a>
+				</div>
+
+				<a href="#" class="footer__link">servis.buhin@gmail.com </a>
+			</div>
+		</section>
+
+		<!-- Buttons -->
+		<section class="section--style-guide">
+			<h3 class="section__title">Buttons</h3><code>(css/scss/layout/nav.scss)</code>
+		</section>
+
+		<!-- Inputs -->
+		<section class="section--style-guide">
+			<h3 class="section__title">Inputs</h3><code>(css/scss/layout/nav.scss)</code>
+			<form class="form">
+				<div class="form__field">
+					<label for="name" class="form__label">Ime i prezime</label> 
+					<input class="form__input" type="text" name="name">
+				</div>
+				<div class="form__field">
+					 <label for="message" class="form__label">Upit</label>
+					 <textarea class="form__textarea" name="message" rows="5"></textarea>
+				</div>
+				<div class="form__btn">
+					<input class="btn btn--secondary" type="submit" value="Pošalji">
+				</div>
+			</form>
+		</section>
+
+		<!-- Slider -->
+		<section class="section--style-guide">
+			<h3 class="section__title">Slider</h3><code>(css/scss/layout/nav.scss)</code>
+		</section>
+
+		<!-- Cookies -->
+		<section class="section--style-guide">
+			<h3 class="section__title">Cookies</h3><code>(css/scss/layout/nav.scss)</code>
+		</section>
+
+		<!-- Error -->
+		<section class="section--style-guide">
+			<h3 class="section__title">Error</h3><code>(css/scss/layout/nav.scss)</code>
+		</section>
 		
 	</main>
 
