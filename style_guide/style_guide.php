@@ -28,13 +28,43 @@
 		</ul>
 	</nav>
 
+	<main class="main main--style-guide grid grid--12">
+		<!-- About -->
+		<section class="section--style-guide">
+			<h2 class="section__title">O projektu</h2>
+			<div class="section__desc">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis odio vitae lacinia bibendum. Suspendisse lacinia id libero vel cursus. Suspendisse mollis sem massa, eu malesuada ex pulvinar ut. In malesuada lacus arcu, ac venenatis risus pulvinar sit amet. Donec fermentum diam libero, non varius tortor ornare id. Suspendisse potenti. Duis tempor laoreet aliquet. Vestibulum luctus sit amet eros a varius. Vivamus eget condimentum est. Curabitur et convallis mi. Donec vel ante non lacus pellentesque faucibus.</p>
+				<p>Nam sit amet magna neque. Quisque consectetur magna nibh, ut maximus enim malesuada at. Praesent fringilla lacinia elit, vel maximus purus pellentesque dapibus. Phasellus et nibh mattis, varius velit eu, tincidunt ex. Sed sit amet aliquet arcu. Ut a nisi tristique, cursus sem at, ultrices odio. Etiam blandit lacus sem, eu consequat justo facilisis a. Vestibulum vel lacus urna. Praesent blandit risus quis turpis vestibulum, viverra dapibus quam malesuada. Vivamus scelerisque feugiat odio. Maecenas massa justo, lacinia eu tempor at, dictum nec tellus.</p>
+			</div>
+		</section>
 
-	<main class="main grid grid--12">
+		<!-- Colors -->
+		<section class="section--style-guide">
+			<h3 class="section__title">Colors</h3><code>(css/scss/abstracts/variables.scss)</code>
+			<div class="section__desc">
+				<div class="color--wrap"><span>Primary Color</span><div class="color color--primary"></div><span>#2a8c57</span></div>
+				<div class="color--wrap"><span>White</span><div class="color color--white"></div><span>#ffffff</span></div>
+				<div class="color--wrap"><span>Light Gray</span><div class="color color--gray-light"></div><span>#d8d8d8</span></div>
+				<div class="color--wrap"><span>Gray</span><div class="color color--gray"></div><span>#a1a1a1</span></div>
+				<div class="color--wrap"><span>Dark Gray</span><div class="color color--gray-dark"></div><span>#515151</span></div>
+				<div class="color--wrap"><span>Black</span><div class="color color--black"></div><span>#1a1a1a</span></div>
+			</div>
+		</section>
+
+		<!-- Typography -->
+		<section class="section--style-guide">
+			<h3 class="section__title">Typography</h3><code>(css/scss/abstracts/variables.scss, css/scss/base/typography.scss)</code>
+			<div class="section__desc">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis odio vitae lacinia bibendum. Suspendisse lacinia id libero vel cursus. Suspendisse mollis sem massa, eu malesuada ex pulvinar ut. In malesuada lacus arcu, ac venenatis risus pulvinar sit amet. Donec fermentum diam libero, non varius tortor ornare id. Suspendisse potenti. Duis tempor laoreet aliquet. Vestibulum luctus sit amet eros a varius. Vivamus eget condimentum est. Curabitur et convallis mi. Donec vel ante non lacus pellentesque faucibus.</p>
+				<p>Nam sit amet magna neque. Quisque consectetur magna nibh, ut maximus enim malesuada at. Praesent fringilla lacinia elit, vel maximus purus pellentesque dapibus. Phasellus et nibh mattis, varius velit eu, tincidunt ex. Sed sit amet aliquet arcu. Ut a nisi tristique, cursus sem at, ultrices odio. Etiam blandit lacus sem, eu consequat justo facilisis a. Vestibulum vel lacus urna. Praesent blandit risus quis turpis vestibulum, viverra dapibus quam malesuada. Vivamus scelerisque feugiat odio. Maecenas massa justo, lacinia eu tempor at, dictum nec tellus.</p>
+			</div>
+		</section>
+
+		
 	</main>
 
 	<footer class="footer footer--style-guide">
 		<div class="footer__copyright">Servis Buhin &copy; <?php echo date("Y"); ?>.</div>
-
 	</footer>
 
 	<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin="">

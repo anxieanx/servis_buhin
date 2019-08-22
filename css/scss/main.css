@@ -241,7 +241,6 @@ body {
     justify-content: center; }
   .header .header__title {
     font-weight: 700;
-    line-height: 1.4;
     letter-spacing: 6px;
     text-transform: uppercase;
     margin-bottom: 4rem; }
@@ -408,6 +407,52 @@ body {
     font-family: "Palanquin Dark", sans-serif; }
     .nav--style-guide .nav__logo:hover, .nav--style-guide .nav__logo:active, .nav--style-guide .nav__logo:focus {
       color: rgba(26, 26, 26, 0.8); }
+
+/* SECTION */
+.main--style-guide {
+  height: auto; }
+
+.section--style-guide {
+  grid-column: 1/span 12;
+  margin: 6.25rem 4rem; }
+  .section--style-guide .section__title {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 3rem; }
+  .section--style-guide code {
+    font-size: 0.875rem;
+    margin-left: 2rem; }
+  .section--style-guide .section__desc {
+    display: flex;
+    justify-content: space-between; }
+    .section--style-guide .section__desc p {
+      width: 45%; }
+
+/* COLORS */
+.color--wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 16%; }
+  .color--wrap span {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  .color--wrap .color {
+    width: 4rem;
+    height: 4rem; }
+  .color--wrap .color--primary {
+    background-color: #2A8C57; }
+  .color--wrap .color--white {
+    background-color: #FFFFFF; }
+  .color--wrap .color--gray-light {
+    background-color: #D8D8D8; }
+  .color--wrap .color--gray {
+    background-color: #A1A1A1; }
+  .color--wrap .color--gray-dark {
+    background-color: #515151; }
+  .color--wrap .color--black {
+    background-color: #1A1A1A; }
 
 /* FOOTER */
 .footer--style-guide {
