@@ -34,7 +34,7 @@
 		<header class="header grid--12">
 			<div class="header__contact">
 				<h2 class="header__subtitle">Kontakt</h2>
-				<p>Ukoliko imate bilo kakav upit, slobodno nas kontaktirajte!</p>
+				<p>Za sve upite i dodatne informacije slobodno nas kontaktirajte. Na svaki upit odgovorit ćemo Vam u najkraćem mogućem roku.</p>
 
 
 			<form class="form" action="mail.php" method="POST">

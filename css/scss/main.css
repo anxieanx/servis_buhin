@@ -648,13 +648,36 @@ body {
       width: 100%;
       height: auto; }
 
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
 .quote__img {
   width: 15rem;
   height: 15rem;
   border-radius: 100%;
   object-fit: cover;
-  position: absolute;
-  bottom: 20%;
-  right: 60%; }
+  position: relative;
+  left: -3rem;
+  transform: scale(1.2); }
+
+.quote__img--wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem; }
+
+.quote__text {
+  display: block;
+  max-width: 70%;
+  margin: 0 auto;
+  margin-top: 4rem; }
+
+.quote__info {
+  margin-right: 6rem; }
+  .quote__info h6 {
+    font-size: 0.875rem;
+    text-transform: uppercase; }
 
 /*# sourceMappingURL=main.css.map */

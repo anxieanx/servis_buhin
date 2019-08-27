@@ -50,11 +50,15 @@
 			</div>
 		</section>
 
-		<div class="header__img--wrap">
-			<q>Pravovremena i kvalitetna usluga klijentu osnovan je zahtjev kojeg Servis Buhin svakodnevno pokušava zadovoljiti i u tome uspijeva.</q>
-			<h5>Ivica Buhin</h5>
-			<h6>osnivač</h6>
-			<img src="img/portrait.jpg" alt="portrait" class="quote__img" />				
+		<div class="header__img--wrap quote">
+			<q class="quote__text">Pravovremena i kvalitetna usluga klijentu osnovan je zahtjev kojeg Servis Buhin svakodnevno pokušava zadovoljiti i u tome uspijeva.</q>
+			<div class="quote__img--wrap">
+				<img src="img/portrait.jpg" alt="portrait" class="quote__img" />	
+				<div class="quote__info">	
+					<h3>Ivica Buhin</h3>
+					<h6>osnivač</h6>
+				</div>			
+			</div>
 		</div>
 		
 		<?php 
