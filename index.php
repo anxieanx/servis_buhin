@@ -46,5 +46,7 @@
 	<script src="js/burger.js"></script>
 	<script src="js/owl_carousel_lib.js"></script>
 	<script src="js/owl_carousel_init.js"></script>
+	<script src="js/lax_lib.js"></script>
+	<script src="js/lax_init.js"></script>
 </body>
 </html>
