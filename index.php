@@ -26,14 +26,12 @@
 
 		<header class="header grid--12">
 			<div class="header__info">
-				<h1 class="header__title">Servisiranje<br />i popravak</h1>
+				<h1 class="header__title">Servisiranje<span>i popravak</span></h1>
 				<p class="header__desc">Plinskih trošila</p>
 				<a href="#" class="btn btn--primary">Saznaj više</a>
 			</div>
 
-			<div class="header__img--wrap">
-				
-			</div>		
+			<div class="header__img--wrap"></div>		
 		</header>
 		
 		<?php 

@@ -4,33 +4,74 @@
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
-	height: 94px;
 	font-family: $heading-font-family;
 	font-size: 0.75rem;
+	position: relative;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+
+	@include breakpoint ($large) {
+		height: 94px;
+		padding: 0;
+	}
+
+	.footer__address {
+		width: 100%;
+		margin-bottom: 0.625rem;
+
+		@include breakpoint ($large) {
+			width: auto;
+		}
+	}
 
 	.footer__number--wrap {
 		display: flex;
 		flex-wrap: wrap;
+		flex-direction: column;
 		justify-content: space-between;
+		text-align: right;
+		position: absolute;
+		top: 1rem;
+		right: 0;
+
+		@include breakpoint ($large) {
+			flex-direction: row;
+			text-align: left;
+			position: static;
+		}
 	}
 
 	.footer__number {
 		color: $black;
 		text-decoration: none;
-		margin-left: 1rem;
-		margin-right: 1rem;
+		margin-bottom: 0.625rem;
+
+		@include breakpoint ($large) {
+			margin-bottom: 0;
+			margin-left: 1rem;
+			margin-right: 1rem;
+		}
 
 		&:hover, &:active, &:focus {
 			color: $black;
 		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}
 
 	.footer__link {
+		width: 100%;
 		color: $black;
 		text-decoration: none;
 
 		&:hover, &:active, &:focus {
 			color: lighten($color-primary, 5%);
+		}
+
+		@include breakpoint ($large) {
+			width: auto;
 		}
 	}
 }
