@@ -349,27 +349,13 @@ body {
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 1.5rem; }
-  .header .header__offer {
-    grid-column: 1/span 5;
-    flex-direction: column;
-    justify-content: center; }
-  .header .services {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; }
-  .header .header__about {
-    grid-column: 1/span 6;
-    flex-direction: column;
-    justify-content: center; }
-  .header .partners {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; }
 
-.header--about, .header--contact {
+.header--about, .header--contact,
+.header--services {
   height: auto; }
   @media only screen and (min-width: 1024px) {
-    .header--about, .header--contact {
+    .header--about, .header--contact,
+    .header--services {
       height: calc(100vh - 12rem); } }
 
 .nav {
@@ -688,14 +674,6 @@ body {
   .map .leaflet-bottom.leaflet-right {
     z-index: 3 !important; }
 
-.services {
-  display: flex;
-  flex-wrap: wrap; }
-
-.service__item {
-  width: 50%;
-  margin-bottom: 3 rem; }
-
 /* NAVIGATION */
 .nav--style-guide {
   border-bottom: 1px solid #D8D8D8;
@@ -962,6 +940,58 @@ body {
     @media only screen and (min-width: 1024px) {
       .contact .contact__text {
         font-size: 1rem; } }
+
+.services {
+  grid-column: 1/span 12;
+  display: flex;
+  flex-direction: column; }
+  @media only screen and (min-width: 1024px) {
+    .services {
+      grid-column: 1/span 8; } }
+  .services .service__item--wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem; }
+    @media only screen and (min-width: 1024px) {
+      .services .service__item--wrap {
+        margin-top: 3rem; } }
+  .services .service__item {
+    width: 100%;
+    margin-bottom: 2rem; }
+    @media only screen and (min-width: 1024px) {
+      .services .service__item {
+        width: 50%;
+        margin-bottom: 1.5rem; } }
+  .services .service__info {
+    display: flex;
+    align-items: center; }
+    .services .service__info h3 {
+      font-size: 1.125rem;
+      font-weight: 300;
+      text-transform: uppercase;
+      margin-bottom: 0;
+      margin-left: 2rem; }
+      @media only screen and (min-width: 1024px) {
+        .services .service__info h3 {
+          font-size: 1.5rem; } }
+  .services .service__img {
+    width: 4rem;
+    height: 4rem; }
+  .services .service__desc {
+    max-width: 20rem;
+    margin-top: 1.25rem; }
+    @media only screen and (min-width: 1024px) {
+      .services .service__desc {
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        margin-left: 6rem;
+        padding-right: 3rem; } }
+  .services .btn--primary {
+    align-self: center;
+    margin-bottom: 3rem; }
+    @media only screen and (min-width: 1024px) {
+      .services .btn--primary {
+        margin-bottom: 0; } }
 
 /**
  * Owl Carousel v2.3.4

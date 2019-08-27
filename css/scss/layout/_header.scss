@@ -79,38 +79,10 @@
 		text-transform: uppercase;
 		margin-bottom: 1.5rem;
 	}
-
-
-
-
-
-
-	.header__offer {
-		grid-column: 1/span 5;
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	.services {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	}
-
-	.header__about {
-		grid-column: 1/span 6;
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	.partners {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-	}
 }
 
-.header--about, .header--contact {
+.header--about, .header--contact,
+.header--services {
 	height: auto;
 
 	@include breakpoint ($large) {
