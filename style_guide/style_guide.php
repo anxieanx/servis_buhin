@@ -33,8 +33,30 @@
 		<section class="section--style-guide">
 			<h2 class="section__title">O projektu</h2>
 			<div class="section__desc--wrap">
-				<p class="section__desc">Mrežna aplikacija „Servis Buhin“ nastala je kao rezultat projektnog rada na diplomskom studiju Informacijske tehnologije na Odsjeku za informacijske znanosti u Osijeku. Studentice koje su uključene u projekt su Marija Buhin (studentica Nakladništva i informacijske tehnologije), Ivona Grgić (studentica Informatologije i informacijske tehnologije) i Željana Hrkač (studentica Nakladništva i informacijske tehnologije). Studentice su projekt realizirale kroz izradu mrežne stranice, web dizajna, popratne dokumentacije, korisničke dokumentacije, kreiranje sadržaja te naposljetku testiranja aplikacije za mrežno okruženje.</p>
-				<p class="section__desc">Tehnologije i jezici korišteni tijekom izrade mrežne aplikacije su HTML, CSS, SASS, JS, jQuery, jQuery plugin, PHP, Owl Carousel 2, Open Street Maps i Leaflet. Za izradu dizajna koristio se alat za dizajn sučelja Figma, a za izradu ikona koristio se vektorski grafički program Adobe Illustrator. Za komunikaciju i verzioniranje koda koristio se GitHub Repozitorij. Za nazive klasa koristila se BEM (Block Element Modifier) metodologija.</p>
+				<div class="section__desc"><p>Mrežna aplikacija „Servis Buhin“ nastala je kao rezultat projektnog rada na diplomskom studiju Informacijske tehnologije na Odsjeku za informacijske znanosti u Osijeku. Studentice koje su uključene u projekt su Marija Buhin (studentica Nakladništva i informacijske tehnologije), Ivona Grgić (studentica Informatologije i informacijske tehnologije) i Željana Hrkač (studentica Nakladništva i informacijske tehnologije).</p><p>Studentice su projekt realizirale kroz izradu mrežne stranice, web dizajna, popratne dokumentacije, korisničke dokumentacije, kreiranje sadržaja te naposljetku testiranja aplikacije za mrežno okruženje.</p><p>Tehnologije i jezici korišteni tijekom izrade mrežne aplikacije su HTML, CSS, SASS, JS, jQuery, jQuery plugin, PHP, Owl Carousel 2, Open Street Maps i Leaflet. Za izradu dizajna koristio se alat za dizajn sučelja Figma, a za izradu ikona koristio se vektorski grafički program Adobe Illustrator. Za komunikaciju i verzioniranje koda koristio se GitHub Repozitorij. Za nazive klasa koristila se BEM (Block Element Modifier) metodologija.</p></div>
+				<div class="section__desc">
+					<h4>Proces izrade</h4>
+					<ol><li>Pripremna faza - ispitivanje potreba
+					<ul><li>Upoznavanje s djelatnosti obrta</ul>
+					<ul><li>Ispitivanje svrhe mrežne stranice – prezentacijske i promotivne svrhe</ul> 
+					<li>Faza – prikupljanje materijala
+					<ul><li>Prikupljanje informacija o obrtu, logo</ul>
+					<ul><li>Fotografiranje bitnih stavki</ul> 
+					<li>Faza – dizajn mrežne stranice
+					<ul><li>Dobivanje osnovnih smjernica dizajna od klijenata</ul>
+					<ul><li>Izrada 3 prijedloga dizajna</ul> 
+					<ul><li>Dorada odabranog dizajna od strane klijenta do njegove konačne potvrde</ul></li>
+					<li>Faza – izrada mrežne stranice
+					<ul><li>Pripremljeni materijali koje je potrebno postaviti</ul>
+					<ul><li>Tekstovi, slike, boje, tipografije</ul>
+					<li>Faza – testiranje
+					<ul><li>Provjera unesenog sadržaja</ul> 
+					<ul><li>Ispitivanje funkcionalnosti stranice</ul>  
+					<li>Faza – postavljanje mrežne stranice
+					<ul><li>Postavljanje stranice na određenu domenu i poslužitelj</ul>	
+					<li>Faza – dokumentacija
+					<ul><li>Pisanje dokumentacije potrebne za realizaciju projekta</ul></ol>
+					</div>
 			</div>
 		</section>
 
