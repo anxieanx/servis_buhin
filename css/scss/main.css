@@ -346,6 +346,7 @@ body {
       .header .header__img--wrap {
         display: block; } }
   .header .header__subtitle {
+    letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 1.5rem; }
   .header .header__offer {
@@ -364,15 +365,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; }
-  .header .header__contact {
-    grid-column: 1/span 5;
-    flex-direction: column;
-    justify-content: center; }
 
-.header--about {
+.header--about, .header--contact {
   height: auto; }
   @media only screen and (min-width: 1024px) {
-    .header--about {
+    .header--about, .header--contact {
       height: calc(100vh - 12rem); } }
 
 .nav {
@@ -473,7 +470,9 @@ body {
   padding: 0.5rem 1.25rem;
   transition: 0.2s; }
   .btn:hover, .btn:active, .btn:focus {
-    cursor: pointer; }
+    cursor: pointer;
+    text-decoration: none;
+    outline: none; }
 
 .btn--primary {
   color: #2A8C57;
@@ -569,8 +568,10 @@ body {
       border-color: #2A8C57;
       outline: 0; }
   .form .form__btn {
-    align-self: flex-end;
-    margin-top: 2.5rem; }
+    align-self: flex-end; }
+    @media only screen and (min-width: 1024px) {
+      .form .form__btn {
+        margin-top: 2rem; } }
 
 .gallery--wrap {
   grid-column: 1/span 12;
@@ -647,12 +648,41 @@ body {
     border-radius: 0.25rem;
     object-fit: cover; }
 
+.map--wrap {
+  grid-column: 1/span 12;
+  width: calc(100% + 2.5rem);
+  background-color: #2A8C57;
+  margin-top: 6rem;
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem; }
+  @media only screen and (min-width: 640px) {
+    .map--wrap {
+      width: calc(100% + 6rem);
+      margin-left: -3rem;
+      margin-right: -3rem;
+      padding-left: 3rem;
+      padding-right: 3rem; } }
+  @media only screen and (min-width: 1024px) {
+    .map--wrap {
+      grid-column: 7/span 6;
+      width: calc(100% + 6rem);
+      margin: 0;
+      padding: 0; } }
+
 .map {
   width: 100%;
-  height: 70%;
+  height: 200px;
+  border-radius: 0.25rem;
   position: relative;
-  top: 15%;
-  right: 25%; }
+  top: -2rem; }
+  @media only screen and (min-width: 1024px) {
+    .map {
+      width: calc(100% - 6rem);
+      height: 70%;
+      top: 15%;
+      right: 6rem; } }
   .map .leaflet-pane {
     z-index: 3 !important; }
   .map .leaflet-bottom.leaflet-right {
@@ -917,6 +947,21 @@ body {
       @media only screen and (min-width: 1024px) {
         .quote .quote__info h6 {
           font-size: 0.875rem; } }
+
+.contact {
+  grid-column: 1/span 12;
+  flex-direction: column;
+  justify-content: center; }
+  @media only screen and (min-width: 1024px) {
+    .contact {
+      grid-column: 1/span 4; } }
+  .contact .contact__text {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 2rem; }
+    @media only screen and (min-width: 1024px) {
+      .contact .contact__text {
+        font-size: 1rem; } }
 
 /**
  * Owl Carousel v2.3.4

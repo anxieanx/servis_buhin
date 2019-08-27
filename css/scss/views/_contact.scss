@@ -1,0 +1,19 @@
+.contact {
+	grid-column: 1/span 12;
+	flex-direction: column;
+	justify-content: center;
+
+	@include breakpoint ($large) {
+		grid-column: 1/span 4;
+	}
+
+	.contact__text {
+		font-size: 0.875rem;
+		line-height: 1.5;
+		margin-bottom: 2rem;
+
+		@include breakpoint ($large) {
+			font-size: 1rem;
+		}
+	}
+}
