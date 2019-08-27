@@ -3,33 +3,78 @@
 	height: calc(100vh - 14rem);
 
 	.header__info {
-		grid-column: 1/span 5;
+		grid-column: 1/span 12;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+
+		@include breakpoint ($large) {
+			grid-column: 1/span 5;
+		}
 	}
 
 	.header__title {
 		font-weight: $bold;
 		letter-spacing: 6px;
 		text-transform: uppercase;
-		margin-bottom: 4rem;
+		margin-bottom: 2.5rem;
+
+		@include breakpoint ($large) {
+			margin-bottom: 4rem;
+		}
+
+		span {
+			display: block;
+			text-align: right;
+			margin-top: 0.5rem;
+
+			@include breakpoint ($large) {
+				text-align: left;
+				margin-top: 0;
+			}
+		}
 	}
 
 
 	.header__desc {
 		color: rgba($black, 0.5);
-		font-size: 1.75rem;
+		font-size: 1.25rem;
 		letter-spacing: 2px;
-		text-align: right;
 		text-transform: uppercase;
 		margin-top: 0;
-		margin-bottom: 2rem;
+		margin-bottom: 1.5rem;
+
+		@include breakpoint ($large) {
+			font-size: 1.75rem;
+			text-align: right;
+			margin-bottom: 2rem;
+		}
 	}
 
 	.btn--primary {
-		align-self: flex-end;
+		align-self: flex-start;
+
+		@include breakpoint ($large) {
+			align-self: flex-end;
+		}
 	}
+
+	.header__img--wrap {
+		grid-column: 9/span 4;
+		display: none;
+		width: calc(100% + 6rem);
+		background-color: $color-primary;
+		position: relative;
+
+		@include breakpoint ($large) {
+			display: block;
+		}
+	}
+
+
+
+
+
 
 	.header__offer {
 		grid-column: 1/span 5;

@@ -4,6 +4,7 @@
 	<div class="burger"></div>
 	<div class="nav--burger">
 		<ul class="nav__link--wrap">
+			<li><a href="index.php" class="nav__logo"><span>Servis</span> Buhin</a></li>
 			<li><a href="ponuda.php" class="nav__link">Ponuda</a></li>
 			<li><a href="about.php" class="nav__link">O nama</a></li>
 			<li><a href="gallery.php" class="nav__link">Galerija</a></li>
