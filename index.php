@@ -26,7 +26,7 @@
 
 		<header class="header grid--12">
 			<div class="header__info">
-				<h1 class="lax" data-lax-opacity="0 1, 100 1, 200 0 | loop=200" class="header__title">Servisiranje<br />i popravak</h1>
+				<h1 class="header__title">Servisiranje<br />i popravak</h1>
 				<p class="header__desc">Plinskih trošila</p>
 				<a href="#" class="btn btn--primary">Saznaj više</a>
 			</div>
