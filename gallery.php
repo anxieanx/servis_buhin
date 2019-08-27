@@ -34,6 +34,15 @@
 				<div class="gallery__img--wrap"><img src="img/gallery/dijelovi_3.jpg" alt="gallery" class="gallery__img" /></div>
 				<div class="gallery__img--wrap"><img src="img/gallery/dijelovi_4.jpg" alt="gallery" class="gallery__img" /></div>
 			</div>
+
+			<div class="gallery--thumbs">
+				<div class="gallery__img--wrap"><img src="img/gallery/vozilo_1.jpg" alt="gallery" class="gallery__img" /></div>
+				<div class="gallery__img--wrap"><img src="img/gallery/servis_4.jpg" alt="gallery" class="gallery__img" /></div>
+				<div class="gallery__img--wrap"><img src="img/gallery/dijelovi_1.jpg" alt="gallery" class="gallery__img" /></div>
+				<div class="gallery__img--wrap"><img src="img/gallery/dijelovi_2.jpg" alt="gallery" class="gallery__img" /></div>
+				<div class="gallery__img--wrap"><img src="img/gallery/dijelovi_3.jpg" alt="gallery" class="gallery__img" /></div>
+				<div class="gallery__img--wrap"><img src="img/gallery/dijelovi_4.jpg" alt="gallery" class="gallery__img" /></div>
+			</div>
 		</div>
 
 		<?php 
