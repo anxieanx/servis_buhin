@@ -42,12 +42,12 @@
 		<section class="section--style-guide">
 			<h3 class="section__title">Boje</h3><code>(css/scss/abstracts/variables.scss)</code>
 			<div class="section__desc--wrap">
-				<div class="color--wrap"><span>Primary Color</span><div class="color color--primary"></div><span>#2a8c57</span></div>
-				<div class="color--wrap"><span>White</span><div class="color color--white"></div><span>#ffffff</span></div>
-				<div class="color--wrap"><span>Light Gray</span><div class="color color--gray-light"></div><span>#d8d8d8</span></div>
-				<div class="color--wrap"><span>Gray</span><div class="color color--gray"></div><span>#a1a1a1</span></div>
-				<div class="color--wrap"><span>Dark Gray</span><div class="color color--gray-dark"></div><span>#515151</span></div>
-				<div class="color--wrap"><span>Black</span><div class="color color--black"></div><span>#1a1a1a</span></div>
+				<div class="color--wrap"><span>Primarna boja</span><div class="color color--primary"></div><span>#2a8c57</span></div>
+				<div class="color--wrap"><span>Bijela</span><div class="color color--white"></div><span>#ffffff</span></div>
+				<div class="color--wrap"><span>Svjetlosiva</span><div class="color color--gray-light"></div><span>#d8d8d8</span></div>
+				<div class="color--wrap"><span>Siva</span><div class="color color--gray"></div><span>#a1a1a1</span></div>
+				<div class="color--wrap"><span>Tamnosiva</span><div class="color color--gray-dark"></div><span>#515151</span></div>
+				<div class="color--wrap"><span>Crna</span><div class="color color--black"></div><span>#1a1a1a</span></div>
 			</div>
 		</section>
 
