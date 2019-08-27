@@ -201,7 +201,7 @@
 
 		<!-- Cookies -->
 		<section class="section--style-guide">
-			<h3 class="section__title">Cookies</h3><code>(css/scss/layout/nav.scss)</code>
+			<h3 class="section__title">Cookies</h3><code>(css/scss/components/cookies.scss)</code>
 			<div class="cookies cookies--style-guide">
 				<div class="cookies__text">Servis Buhin koristi kolačiće za pružanje boljeg korisničkog iskustva i funkcionalnosti stranice - <a href="https://www.aboutcookies.org/">saznaj više</a>.</div>
 				<div class="btn btn--primary cookies__btn">Shvaćam</div>
