@@ -24,6 +24,7 @@
 	<link rel="shortcut icon" type="image/png" href="img/logo-baum.png"/>
 	<link rel="stylesheet" href="css/scss/main.css">
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+	<link rel="stylesheet" href="css/animate.css">
 
 <body>
 	<main class="main grid grid--12">
@@ -33,8 +34,8 @@
 
 		<header class="header header--about grid--12">
 			<section class="about">
-				<h2 class="header__subtitle">O nama</h2>
-				<div class="about__text">
+				<h2 class="header__subtitle animated fadeInUp">O nama</h2>
+				<div class="about__text animated fadeInUp">
 					<p>Obrt je osnovan 1992. godine i bavi se servisiranjem i montažom plinskih trošila. Ovlašteni je servisni partner za proizvodni program Vaillant-a i Junkers Bosch-a. U obrtu trenutno ima četiri zaposlena djelatnika, a svaki od njih je prošao školovanje u predstavništvu tvrtki Vaillant i Junkers u Zagrebu, kao i u sjedištima tvrtki u Njemačkoj. Obrt surađuje s predstavništvima u Zagrebu, gdje se nabavljaju i originalni rezervni dijelovi.</p>
 					<p>Lista poslovnih partnera je duga no važno je istaknuti suradnju s mnogim trgovinama na području grada Osijeka, a najčešće s „Termocommerce“ i „Exterim“. Osim toga, servis prati i brojne građevinske firme te preuzima održavanje uređaja u njihovim objektima i surađuje s mnogim obrtničkim radionicama i tvrtkama poput „Radijator“, „Plinosan“, „Termoplin“, „Vodopija“ i dr.</p>
 					<p>Tim se redovito odaziva pozivima na seminare i razne druge aktivnosti u organizaciji predstavništva radi stjecanja novih znanja i razmjene iskustva.</p>
@@ -47,7 +48,7 @@
 			</section>
 
 			<div class="quote">
-				<q class="quote__text">Pravovremena i kvalitetna usluga klijentu osnovan je zahtjev kojeg Servis Buhin svakodnevno pokušava zadovoljiti i u tome uspijeva.</q>
+				<q class="quote__text animated fadeInUp">Pravovremena i kvalitetna usluga klijentu osnovan je zahtjev kojeg Servis Buhin svakodnevno pokušava zadovoljiti i u tome uspijeva.</q>
 				<div class="quote__img--wrap">
 					<img src="img/portrait.png" alt="Ivica Buhin" class="quote__img" />	
 					<div class="quote__info">	
@@ -67,5 +68,7 @@
 	</script> 
 	<script src="js/map.js"></script>
 	<script src="js/burger.js"></script>
+	<script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
 </body>
 </html>

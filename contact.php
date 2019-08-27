@@ -24,6 +24,7 @@
 	<link rel="shortcut icon" type="image/png" href="img/logo-baum.png"/>
 	<link rel="stylesheet" href="css/scss/main.css">
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+	<link rel="stylesheet" href="css/animate.css">
 
 <body>
 	<main class="main grid grid--12">
@@ -33,24 +34,24 @@
 
 		<header class="header grid--12">
 			<div class="header__contact">
-				<h2 class="header__subtitle">Kontakt</h2>
-				<p>Za sve upite i dodatne informacije slobodno nas kontaktirajte. Na svaki upit odgovorit ćemo Vam u najkraćem mogućem roku.</p>
+				<h2 class="header__subtitle animated fadeInUp">Kontakt</h2>
+				<p class="animated fadeInUp">Za sve upite i dodatne informacije slobodno nas kontaktirajte. Na svaki upit odgovorit ćemo Vam u najkraćem mogućem roku.</p>
 
 
 			<form class="form" action="mail.php" method="POST">
-				<div class="form__field">
+				<div class="form__field animated fadeInUp">
 					<label for="name" class="form__label">Ime i prezime</label> 
 					<input class="form__input" type="text" name="name">
 				</div>
-				<div class="form__field">
+				<div class="form__field animated fadeInUp">
 					<label for="name" class="form__label">Email</label> 
 					<input class="form__input" type="text" name="tel">
 				</div>
-				<div class="form__field">
+				<div class="form__field animated fadeInUp">
 					 <label for="message" class="form__label">Upit</label>
 					 <textarea class="form__textarea" name="message" rows="5"></textarea><br />
 				</div>
-				<div class="form__btn">
+				<div class="form__btn animated fadeInUp">
 					<input class="btn btn--secondary" type="submit" value="POŠALJI">
 				</div>
 			</form>
@@ -73,5 +74,7 @@
 	</script> 
 	<script src="js/map.js"></script>
 	<script src="js/burger.js"></script>
+	<script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
 </body>
 </html>
