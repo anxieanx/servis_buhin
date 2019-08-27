@@ -55,7 +55,11 @@
 		<section class="section--style-guide">
 			<h3 class="section__title">Tipografija</h3><code>(css/scss/abstracts/variables.scss, css/scss/base/typography.scss)</code>
 			<div class="section__desc--wrap">
-				<p class="section__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis odio vitae lacinia bibendum. Suspendisse lacinia id libero vel cursus. Suspendisse mollis sem massa, eu malesuada ex pulvinar ut. In malesuada lacus arcu, ac venenatis risus pulvinar sit amet. Donec fermentum diam libero, non varius tortor ornare id. Suspendisse potenti. Duis tempor laoreet aliquet. Vestibulum luctus sit amet eros a varius. Vivamus eget condimentum est. Curabitur et convallis mi. Donec vel ante non lacus pellentesque faucibus.</p>
+				<p class="section__desc">Tipografija koja se koristila preuzeta je s Google Fonts-a koji ima mogućnost besplatnog korištenja fontova u bilo kojem komercijalnom ili nekomercijalnom projektu. https://fonts.google.com/</p>
+				<h4>Korištena tipografija</h4> 
+				<p>Osnovna tipografija: 'Mukta Malar', sans-serif;</p>
+				<p>Naslovi: 'Palanquin Dark', sans-serif;</p>
+				<p>Logo: 'Gudea', sans-serif;</p>
 				<div class="section__desc">
 					<h1>H1</h1>
 					<h2>H2</h2>
