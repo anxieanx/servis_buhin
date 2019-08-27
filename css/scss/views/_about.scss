@@ -1,17 +1,64 @@
 .about {
-	grid-column: 1/span 8;
-	height: calc(100vh - 14rem);
-	max-width: 90%;
+	grid-column: 1/span 12;
+
+	@include breakpoint ($large) {
+		grid-column: 1/span 8;
+	}
+
+	.about__text {
+		max-width: 45rem;
+
+		p {
+			font-size: 0.875rem;
+			line-height: 1.5;
+
+			@include breakpoint ($large) {
+				font-size: 1rem;
+			}
+		}
+	}
 
 	.about__img--wrap {
 		display: flex;
+		flex-wrap: wrap;
 		align-items: center;
+		justify-content: space-between;
+		max-width: 45rem;
+		margin-top: 2.5rem;
+		margin-bottom: 4.5rem;
+
+		@include breakpoint ($large) {
+			margin-top: 4rem;
+			margin-bottom: 0;
+		}
 	}
 
 	.about__img {
 		display: block;
-		width: 30%;
-		height: auto;
+		width: 45%;
+
+		&:first-child {
+			width: 100%;
+			margin-bottom: 1.5rem;
+
+			img {
+				display: block;
+				width: 45%;
+				margin: 0 auto;
+			}
+
+			@include breakpoint ($large) {
+				width: 30%;
+
+				img {
+					width: 100%;
+				}
+			}
+		}
+
+		@include breakpoint ($large) {
+			width: 30%;
+		}
 
 		img {
 			width: 100%;
@@ -21,40 +68,107 @@
 }
 
 .quote {
+	grid-column: 1/span 12;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-}
-
-.quote__img {
-	width: 15rem;
-	height: 15rem;
-	border-radius: 100%;
-	object-fit: cover;
+	width: calc(100% + 2.5rem);
+	background-color: $color-primary;
 	position: relative;
-    left: -3rem;
-    transform: scale(1.2);
-}
+	margin-left: -1.25rem;
+	margin-right: -1.25rem;
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
 
-.quote__img--wrap {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-bottom: 3rem;
-}
-
-.quote__text {
-	display: block;
-	max-width: 70%;
-	margin: 0 auto;
-	margin-top: 4rem;
+	@include breakpoint ($medium) {
+		width: calc(100% + 6rem);
+		margin-left: -3rem;
+		margin-right: -3rem;
+		padding-left: 3rem;
+		padding-right: 3rem;
 	}
 
-.quote__info {
-	margin-right: 6rem;
+	@include breakpoint ($large) {
+		grid-column: 9/span 4;
+		width: calc(100% + 6rem);
+		margin: 0;
+		padding: 0;
+	}
 
-	h6{
-		font-size: 0.875rem;
-		text-transform: uppercase;
+	.quote__text {
+		order: 2;
+		display: block;
+		max-width: 28rem;
+		font-size: 1rem;
+		font-weight: $light;
+		line-height: 1.5;
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 1.5rem;
+
+		@include breakpoint ($large) {
+			order: 1;
+			font-size: 1.25rem;
+			margin-top: 18%;
+			margin-bottom: 0;
+		}
+	}
+
+	.quote__img--wrap {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		order: 1;
+
+		@include breakpoint ($large) {
+			order: 2;
+		}
+	}
+
+	.quote__img {
+		width: 8rem;
+		height: 8rem;
+		border-radius: 100%;
+		object-fit: cover;
+		position: relative;
+		top: -2rem;
+
+	  @include breakpoint ($large) {
+	  	width: 16rem;
+			height: 16rem;
+			top: 0;
+			left: -4rem;
+			margin-bottom: 10%;
+		}
+	}
+
+	.quote__info {
+		color: $white;
+		text-align: center;
+		margin-top: -2rem;
+		margin-right: 20%;
+
+		@include breakpoint ($large) {
+			margin-top: 0;
+		}
+
+		h3 {
+			font-size: 1.25rem;
+			font-weight: $regular;
+
+			@include breakpoint ($large) {
+				font-size: 2rem;
+			}
+		}
+
+		h6 {
+			font-size: 0.75rem;
+			font-weight: $regular;
+			text-transform: uppercase;
+
+			@include breakpoint ($large) {
+				font-size: 0.875rem;
+			}
+		}
 	}
 }

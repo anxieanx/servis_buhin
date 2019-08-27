@@ -116,8 +116,9 @@
 		margin-bottom: 3rem;
 		margin-left: 0;
 
-		&:hover {
-			color: $color-gray--light;
+		&:hover, &:active, &:focus {
+			color: $white;
+			border: none;
 		}
 	}
 }
