@@ -16,6 +16,7 @@
 	<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 	<link rel="stylesheet" href="css/scss/main.css">
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+	<link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
@@ -23,12 +24,12 @@
 		<?php 
 			include 'navigation.php';
 		?>
-
+		
 		<header class="header grid--12">
 			<div class="header__info">
-				<h1 class="header__title">Servisiranje<span>i popravak</span></h1>
-				<p class="header__desc">Plinskih trošila</p>
-				<a href="#" class="btn btn--primary">Saznaj više</a>
+				<h1 class="header__title animated fadeInUp">Servisiranje<span>i popravak</span></h1>
+				<p class="header__desc animated fadeInUp">Plinskih trošila</p>
+				<a href="#" class="btn btn--primary animated fadeInUp">Saznaj više</a>
 			</div>
 
 			<div class="header__img--wrap"></div>		
@@ -48,5 +49,7 @@
 	<script src="js/owl_carousel_init.js"></script>
 	<script src="js/lax_lib.js"></script>
 	<script src="js/lax_init.js"></script>
+	<script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
 </body>
 </html>
