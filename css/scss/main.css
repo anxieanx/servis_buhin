@@ -668,6 +668,15 @@ body {
   display: block;
   color: #1A1A1A; }
 
+.font--base {
+  font-family: "Mukta Malar", sans-serif; }
+
+.font--heading {
+  font-family: "Palanquin Dark", sans-serif; }
+
+.font--logo {
+  font-family: "Gudea", sans-serif; }
+
 /* LOGO */
 .logo {
   display: block;
@@ -925,3 +934,5 @@ body {
   z-index: 1;
   height: 100%;
   width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

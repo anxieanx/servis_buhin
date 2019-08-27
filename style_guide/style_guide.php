@@ -57,9 +57,9 @@
 			<div class="section__desc--wrap">
 				<div class="section__desc"><p>Tipografija koja se koristila preuzeta je s <a href="https://fonts.google.com/">Google Fonts-a</a> koji ima mogućnost besplatnog korištenja fontova u bilo kojem komercijalnom ili nekomercijalnom projektu.</p>
 				<h4>Korištena tipografija</h4>
-				<p>Osnovna tipografija: 'Mukta Malar', sans-serif;</p>
-				<p>Naslovi: 'Palanquin Dark', sans-serif;</p>
-				<p>Logo: 'Gudea', sans-serif;</p></div>
+				<p>Osnovna tipografija: <span class="font--base"> 'Mukta Malar', sans-serif;</p>
+				<p>Naslovi: <span class="font--heading">'Palanquin Dark', sans-serif;</span></p>
+				<p>Logo: <span class="font--logo">'Gudea', sans-serif;</span></p></div>
 
 				
 				<div class="section__desc">
