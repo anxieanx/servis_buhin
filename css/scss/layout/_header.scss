@@ -75,6 +75,7 @@
 	}
 
 	.header__subtitle {
+		letter-spacing: 2px;
 		text-transform: uppercase;
 		margin-bottom: 1.5rem;
 	}
@@ -107,16 +108,9 @@
 		flex-wrap: wrap;
 		justify-content: space-between;
 	}
-
-
-	.header__contact {
-		grid-column: 1/span 5;
-		flex-direction: column;
-		justify-content: center;
-	}
 }
 
-.header--about {
+.header--about, .header--contact {
 	height: auto;
 
 	@include breakpoint ($large) {

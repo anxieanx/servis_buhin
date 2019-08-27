@@ -31,36 +31,32 @@
 			include 'navigation.php';
 		?>
 
-		<header class="header grid--12">
-			<div class="header__contact">
+		<header class="header header--contact grid--12">
+			<section class="contact">
 				<h2 class="header__subtitle">Kontakt</h2>
-				<p>Za sve upite i dodatne informacije slobodno nas kontaktirajte. Na svaki upit odgovorit ćemo Vam u najkraćem mogućem roku.</p>
+				<p class="contact__text">Za sve upite i dodatne informacije slobodno nas kontaktirajte. Na svaki upit odgovorit ćemo Vam u najkraćem mogućem roku.</p>
 
+				<form class="form" action="mail.php" method="POST">
+					<div class="form__field">
+						<label for="name" class="form__label">Ime i prezime</label> 
+						<input class="form__input" type="text" name="name">
+					</div>
+					<div class="form__field">
+						<label for="name" class="form__label">Email</label> 
+						<input class="form__input" type="text" name="tel">
+					</div>
+					<div class="form__field">
+						 <label for="message" class="form__label">Upit</label>
+						 <textarea class="form__textarea" name="message" rows="5"></textarea><br />
+					</div>
+					<div class="form__btn">
+						<input class="btn btn--secondary" type="submit" value="POŠALJI">
+					</div>
+				</form>
+			</section>
 
-			<form class="form" action="mail.php" method="POST">
-				<div class="form__field">
-					<label for="name" class="form__label">Ime i prezime</label> 
-					<input class="form__input" type="text" name="name">
-				</div>
-				<div class="form__field">
-					<label for="name" class="form__label">Email</label> 
-					<input class="form__input" type="text" name="tel">
-				</div>
-				<div class="form__field">
-					 <label for="message" class="form__label">Upit</label>
-					 <textarea class="form__textarea" name="message" rows="5"></textarea><br />
-				</div>
-				<div class="form__btn">
-					<input class="btn btn--secondary" type="submit" value="POŠALJI">
-				</div>
-			</form>
-
-			</div>
-
-			<div class="header__img--wrap">
-
+			<div class="map--wrap">
 				<div id="mapid" class="map"></div>
-				
 			</div>		
 		</header>
 		
