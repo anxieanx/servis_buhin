@@ -55,11 +55,13 @@
 		<section class="section--style-guide">
 			<h3 class="section__title">Tipografija</h3><code>(css/scss/abstracts/variables.scss, css/scss/base/typography.scss)</code>
 			<div class="section__desc--wrap">
-				<p class="section__desc">Tipografija koja se koristila preuzeta je s <a href="https://fonts.google.com/">Google Fonts-a</a> koji ima mogućnost besplatnog korištenja fontova u bilo kojem komercijalnom ili nekomercijalnom projektu.</p>
-				<p class="section__desc"><h6>Korištena tipografija</h6></p> 
+				<div class="section__desc"><p>Tipografija koja se koristila preuzeta je s <a href="https://fonts.google.com/">Google Fonts-a</a> koji ima mogućnost besplatnog korištenja fontova u bilo kojem komercijalnom ili nekomercijalnom projektu.</p>
+				<h4>Korištena tipografija</h4>
 				<p>Osnovna tipografija: 'Mukta Malar', sans-serif;</p>
 				<p>Naslovi: 'Palanquin Dark', sans-serif;</p>
-				<p>Logo: 'Gudea', sans-serif;</p>
+				<p>Logo: 'Gudea', sans-serif;</p></div>
+
+				
 				<div class="section__desc">
 					<h1>H1</h1>
 					<h2>H2</h2>
@@ -78,8 +80,9 @@
 		<section class="section--style-guide">
 			<h3 class="section__title">Logo</h3><code>(css/scss/layout/nav.scss)</code>
 			<div class="section__desc--wrap">
-				<p class="section__desc">Nam sit amet magna neque. Quisque consectetur magna nibh, ut maximus enim malesuada at. Praesent fringilla lacinia elit, vel maximus purus pellentesque dapibus. Phasellus et nibh mattis, varius velit eu, tincidunt ex. Sed sit amet aliquet arcu. Ut a nisi tristique, cursus sem at, ultrices odio. Etiam blandit lacus sem, eu consequat justo facilisis a. Vestibulum vel lacus urna. Praesent blandit risus quis turpis vestibulum, viverra dapibus quam malesuada. Vivamus scelerisque feugiat odio. Maecenas massa justo, lacinia eu tempor at, dictum nec tellus.</p>
+				<p class="section__desc">Logotip obrta pripada tipografskom tipu logotipa jer sadrži tekst, odnosno dvije riječi: SERVIS BUHIN. Klijenti su svojim odabirom logotipa htjeli naglasiti čime se prvenstveno bave te koja je obitelj zadužena za njihov rad. Logotip servisa nema stalan dizajn, odnosno mijenjao se svaki puta kada su klijenti izrađivali određene grafičke vizuale i promotivne materijale (posjetnice, magneti, upaljači, plakati, olovke, majice). Ono što je u svakom logotipu ostalo nepromijenjeno je podebljana tipografija riječi BUHIN, dok je riječ SERVIS u svakom ostala normalne debljine. 						
 				<div class="section__desc"><a href="index.php" class="logo"><span>Servis</span> Buhin</a></div>
+				<p class="section__desc">Za izradu projekta odabran je najučestaliji logotip koji se pojavljuje na vizualima i promotivnim materijalima. Najučestaliji logotip je zelene boje, riječ SERVIS normalne debljine i u kurzivu te podebljana riječ BUHIN. Za tipografiju odabran je font 'Gaudea, sans-serif' kao najsličniji font koji se pojavljuje na navedenim vizualima.</p>	
 			</div>
 		</section>
 
