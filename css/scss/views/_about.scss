@@ -47,8 +47,8 @@
 				margin: 0 auto;
 			}
 
-			@include breakpoint ($large) {
-				width: 30%;
+			@include breakpoint ($medium) {
+				width: 25%;
 
 				img {
 					width: 100%;
@@ -56,8 +56,8 @@
 			}
 		}
 
-		@include breakpoint ($large) {
-			width: 30%;
+		@include breakpoint ($medium) {
+			width: 25%;
 		}
 
 		img {
@@ -98,16 +98,22 @@
 	.quote__text {
 		order: 2;
 		display: block;
-		max-width: 28rem;
+		max-width: 32rem;
 		font-size: 1rem;
 		font-weight: $light;
 		line-height: 1.5;
 		text-align: center;
 		margin: 0 auto;
-		margin-bottom: 1.5rem;
+		margin-bottom: 2rem;
+
+		@include breakpoint ($medium) {
+			font-size: 1.125rem;
+			margin-bottom: 2.5rem;
+		}
 
 		@include breakpoint ($large) {
 			order: 1;
+			max-width: 28rem;
 			font-size: 1.25rem;
 			margin-top: 18%;
 			margin-bottom: 0;
@@ -117,11 +123,12 @@
 	.quote__img--wrap {
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
 		order: 1;
 
 		@include breakpoint ($large) {
+			justify-content: space-between;
 			order: 2;
+			margin-bottom: 12%;
 		}
 	}
 
@@ -134,22 +141,22 @@
 		top: -2rem;
 
 	  @include breakpoint ($large) {
-	  	width: 16rem;
-			height: 16rem;
+	  	width: 15rem;
+			height: 15rem;
 			top: 0;
-			left: -4rem;
-			margin-bottom: 10%;
+			left: -3rem;
 		}
 	}
 
 	.quote__info {
 		color: $white;
-		text-align: center;
 		margin-top: -2rem;
-		margin-right: 20%;
+		margin-left: 3rem;
 
 		@include breakpoint ($large) {
+			text-align: center;
 			margin-top: 0;
+			margin-right: 20%;
 		}
 
 		h3 {
