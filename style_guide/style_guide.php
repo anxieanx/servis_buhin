@@ -3,28 +3,35 @@
 <head>
   <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Servis Buhin - Style Guide</title>
+	<title>Servis Buhin</title>
 	<meta name="og:locale" content="hr_HR" />
 	<meta name="og:type" content="website" />
-	<meta name="og:title" content="Servis Buhin - servisiranje i popravak plinskih trošila" />
+	<meta name="og:title" content="Servis Buhin" />
 	<meta name="og:description" content="Servis Buhin bavi se servisiranjem i montažom plinskih trošila. Ovlašteni servisni partner za proizvodni program Vaillant i Junker Bosch." />
-	<!-- ADD WEBSITE URL HERE: <meta name="og:url" content="" />-->
+	<meta name="og:url" content="http://www.servis-buhin.hr/" />
 	<meta name="og:site_name" content="Servis Buhin" />
+	<meta name="og:image" content="img/logo-baum.png" />
   <meta name="article:tag" content="Servis Buhin, Osijek, plin, bojler, Vaillant, Bosch, popravak bojlera" />
-  <meta property="og:image" content="../img/share_img.jpg" />
+
+  <meta property="og:url" content="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Servis Buhin - servisiranje i popravak plinskih trošila" />
+  <meta property="og:description" content="Servis Buhin bavi se servisiranjem i montažom plinskih trošila. Ovlašteni servisni partner za proizvodni program Vaillant i Junker Bosch. U obrtu trenutno ima četiri zaposlena djelatnika, a svaki od njih je prošao školovanje u predstavništvu tvrtki Vaillant i Junkers u Zagrebu, kao i u sjedištima tvrtki u Njemačkoj." />
+  <meta property="og:image" content="" />
 
 	<link rel="shortcut icon" type="image/png" href="../img/favicon.png" />
 	<link rel="stylesheet" href="../css/scss/main.css">
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+	<link rel="stylesheet" href="../css/animate.css">
 </head>
 
 <body>
-	<nav class="nav nav--desktop nav--style-guide">
-		<a href="#" class="nav__logo">Style Guide</a>
+	<nav id="nav--style-guide" class="nav nav--desktop nav--style-guide">
+		<div class="nav__logo">Dokumentacija</div>
 
 		<ul class="nav__link--wrap">
-			<li><a href="ponuda.php" class="nav__link">Početna</a></li>
-			<li><a href="about.php" class="nav__link">Elementi <img src="../img/icons/accordion_arrow.svg" /></a></li>
+			<li><a href="../index.php" class="nav__link">Početna</a></li>
+			<!--<li><a href="about.php" class="nav__link">Elementi</a></li>-->
 		</ul>
 	</nav>
 
@@ -33,30 +40,62 @@
 		<section class="section--style-guide">
 			<h2 class="section__title">O projektu</h2>
 			<div class="section__desc--wrap">
-				<div class="section__desc"><p>Mrežna aplikacija „Servis Buhin“ nastala je kao rezultat projektnog rada na diplomskom studiju Informacijske tehnologije na Odsjeku za informacijske znanosti u Osijeku. Studentice koje su uključene u projekt su Marija Buhin (studentica Nakladništva i informacijske tehnologije), Ivona Grgić (studentica Informatologije i informacijske tehnologije) i Željana Hrkač (studentica Nakladništva i informacijske tehnologije).</p><p>Studentice su projekt realizirale kroz izradu mrežne stranice, web dizajna, popratne dokumentacije, korisničke dokumentacije, kreiranje sadržaja te naposljetku testiranja aplikacije za mrežno okruženje.</p><p>Tehnologije i jezici korišteni tijekom izrade mrežne aplikacije su HTML, CSS, SASS, JS, jQuery, jQuery plugin, PHP, Owl Carousel 2, Open Street Maps i Leaflet. Za izradu dizajna koristio se alat za dizajn sučelja Figma, a za izradu ikona koristio se vektorski grafički program Adobe Illustrator. Za komunikaciju i verzioniranje koda koristio se GitHub Repozitorij. Za nazive klasa koristila se BEM (Block Element Modifier) metodologija.</p></div>
 				<div class="section__desc">
-					<h4>Proces izrade</h4>
-					<ol><li>Pripremna faza - ispitivanje potreba
-					<ul><li>Upoznavanje s djelatnosti obrta</ul>
-					<ul><li>Ispitivanje svrhe mrežne stranice – prezentacijske i promotivne svrhe</ul> 
-					<li>Faza – prikupljanje materijala
-					<ul><li>Prikupljanje informacija o obrtu, logo</ul>
-					<ul><li>Fotografiranje bitnih stavki</ul> 
-					<li>Faza – dizajn mrežne stranice
-					<ul><li>Dobivanje osnovnih smjernica dizajna od klijenata</ul>
-					<ul><li>Izrada 3 prijedloga dizajna</ul> 
-					<ul><li>Dorada odabranog dizajna od strane klijenta do njegove konačne potvrde</ul></li>
-					<li>Faza – izrada mrežne stranice
-					<ul><li>Pripremljeni materijali koje je potrebno postaviti</ul>
-					<ul><li>Tekstovi, slike, boje, tipografije</ul>
-					<li>Faza – testiranje
-					<ul><li>Provjera unesenog sadržaja</ul> 
-					<ul><li>Ispitivanje funkcionalnosti stranice</ul>  
-					<li>Faza – postavljanje mrežne stranice
-					<ul><li>Postavljanje stranice na određenu domenu i poslužitelj</ul>	
-					<li>Faza – dokumentacija
-					<ul><li>Pisanje dokumentacije potrebne za realizaciju projekta</ul></ol>
-					</div>
+					<p>Mrežna aplikacija „Servis Buhin“ nastala je kao rezultat projektnog rada na diplomskom studiju Informacijske tehnologije na Odsjeku za informacijske znanosti u Osijeku. Studentice koje su uključene u projekt su Marija Buhin (studentica Nakladništva i Informacijske tehnologije), Ivona Grgić (studentica Informatologije i Informacijske tehnologije) i Željana Hrkač (studentica Nakladništva i Informacijske tehnologije).</p>
+					<p>Studentice su projekt realizirale kroz izradu mrežne stranice, web dizajna, popratne dokumentacije, korisničke dokumentacije, kreiranje sadržaja te naposljetku testiranja aplikacije za mrežno okruženje.</p>
+					<p>Tehnologije i jezici korišteni tijekom izrade mrežne aplikacije su HTML, CSS, SASS, JS, jQuery, PHP, Owl Carousel 2, Open Street Maps, Leaflet, Animate.css, Wow.js. Za izradu dizajna koristio se alat za dizajn sučelja Figma, dok se za komunikaciju i verzioniranje koda koristio se GitHub repozitorij. Za nazive klasa koristila se BEM (Block Element Modifier) metodologija.</p>
+				</div>
+				<div class="section__desc">
+					<h5 class="subtitle--style-guide">Proces izrade</h5>
+					<ol>
+						<li>Pripremna faza - ispitivanje potreba</li>
+						<ul>
+							<li>Upoznavanje s djelatnosti obrta</li>
+							<li>Ispitivanje svrhe mrežne stranice – prezentacijske i promotivne svrhe</li>
+						</ul>
+						<li>Faza – prikupljanje materijala</li>
+						<ul>
+							<li>Prikupljanje informacija o obrtu, logo</li>
+							<li>Fotografiranje bitnih stavki</li>
+						</ul>
+						<li>Faza – dizajn mrežne stranice</li>
+						<ul>
+							<li>Dobivanje osnovnih smjernica dizajna od klijenata</li>
+							<li>Izrada 3 prijedloga dizajna</li>
+							<li>Dorada odabranog dizajna od strane klijenta do njegove konačne potvrde</li>
+						</ul>
+						<li>Faza – izrada mrežne stranice</li>
+						<ul>
+							<li>Pripremljeni materijali koje je potrebno postaviti</li>
+							<li>Tekstovi, slike, boje, tipografije</li>
+						</ul>
+						<li>Faza – testiranje</li>
+						<ul>
+							<li>Provjera unesenog sadržaja</li>
+							<li>Ispitivanje funkcionalnosti stranice</li>
+						</ul>
+						<li>Faza – dokumentacija</li>
+						<ul>
+							<li>Pisanje dokumentacije potrebne za realizaciju projekta</li>
+						</ul>
+						<li>Faza – postavljanje mrežne stranice</li>
+						<ul>
+							<li>Postavljanje stranice na određenu domenu i poslužitelj</li>
+						</ul>
+					</ol>
+				</div>
+			</div>
+		</section>
+
+		<!-- Logo -->
+		<section class="section--style-guide">
+			<h3 class="section__title">Logo</h3><code>(css/scss/layout/nav.scss)</code>
+			<div class="section__desc--wrap">
+				<div class="section__desc">
+					<p>Logotip obrta pripada tipografskom tipu logotipa jer sadrži tekst, odnosno dvije riječi: SERVIS BUHIN. Klijenti su svojim odabirom logotipa htjeli naglasiti čime se prvenstveno bave te koja je obitelj zadužena za njihov rad. Logotip servisa nema stalan dizajn, odnosno mijenjao se svaki puta kada su klijenti izrađivali određene grafičke vizuale i promotivne materijale (posjetnice, magneti, upaljači, plakati, olovke, majice). Ono što je u svakom logotipu ostalo nepromijenjeno je podebljana tipografija riječi BUHIN, dok je riječ SERVIS u svakom ostala normalne debljine.</p>
+					<p>Za izradu projekta odabran je najučestaliji logotip koji se pojavljuje na vizualima i promotivnim materijalima. Najučestaliji logotip je zelene boje, riječ SERVIS normalne debljine i u kurzivu te podebljana riječ BUHIN. Za tipografiju odabran je font 'Gaudea, sans-serif' kao najsličniji font koji se pojavljuje na navedenim vizualima.</p>
+				</div>					
+				<div class="section__desc"><a href="index.php" class="logo"><span>Servis</span> Buhin</a></div>
 			</div>
 		</section>
 
@@ -77,13 +116,14 @@
 		<section class="section--style-guide">
 			<h3 class="section__title">Tipografija</h3><code>(css/scss/abstracts/variables.scss, css/scss/base/typography.scss)</code>
 			<div class="section__desc--wrap">
-				<div class="section__desc"><p>Tipografija koja se koristila preuzeta je s <a href="https://fonts.google.com/">Google Fonts-a</a> koji ima mogućnost besplatnog korištenja fontova u bilo kojem komercijalnom ili nekomercijalnom projektu.</p>
-				<h4>Korištena tipografija</h4>
-				<p>Osnovna tipografija: <span class="font--base"> 'Mukta Malar', sans-serif;</p>
-				<p>Naslovi: <span class="font--heading">'Palanquin Dark', sans-serif;</span></p>
-				<p>Logo: <span class="font--logo">'Gudea', sans-serif;</span></p></div>
+				<div class="section__desc">
+					<p>Tipografija koja se koristila preuzeta je s <a href="https://fonts.google.com/">Google Fonts-a</a> koji ima mogućnost besplatnog korištenja fontova u bilo kojem komercijalnom ili nekomercijalnom projektu.</p>
+					<h5 class="subtitle--style-guide">Korištena tipografija</h5>
+					<div>Osnovna tipografija: <span class="font--base"> 'Mukta Malar', sans-serif;</div>
+					<div>Naslovi: <span class="font--heading">'Palanquin Dark', sans-serif;</span></div>
+					<div>Logo: <span class="font--logo">'Gudea', sans-serif;</span></div>
+				</div>
 
-				
 				<div class="section__desc">
 					<h1>H1</h1>
 					<h2>H2</h2>
@@ -98,19 +138,16 @@
 			</div>
 		</section>
 
-		<!-- Logo -->
-		<section class="section--style-guide">
-			<h3 class="section__title">Logo</h3><code>(css/scss/layout/nav.scss)</code>
-			<div class="section__desc--wrap">
-				<p class="section__desc">Logotip obrta pripada tipografskom tipu logotipa jer sadrži tekst, odnosno dvije riječi: SERVIS BUHIN. Klijenti su svojim odabirom logotipa htjeli naglasiti čime se prvenstveno bave te koja je obitelj zadužena za njihov rad. Logotip servisa nema stalan dizajn, odnosno mijenjao se svaki puta kada su klijenti izrađivali određene grafičke vizuale i promotivne materijale (posjetnice, magneti, upaljači, plakati, olovke, majice). Ono što je u svakom logotipu ostalo nepromijenjeno je podebljana tipografija riječi BUHIN, dok je riječ SERVIS u svakom ostala normalne debljine. 						
-				<div class="section__desc"><a href="index.php" class="logo"><span>Servis</span> Buhin</a></div>
-				<p class="section__desc">Za izradu projekta odabran je najučestaliji logotip koji se pojavljuje na vizualima i promotivnim materijalima. Najučestaliji logotip je zelene boje, riječ SERVIS normalne debljine i u kurzivu te podebljana riječ BUHIN. Za tipografiju odabran je font 'Gaudea, sans-serif' kao najsličniji font koji se pojavljuje na navedenim vizualima.</p>	
-			</div>
-		</section>
-
 		<!-- Icons -->
 		<section class="section--style-guide">
 			<h3 class="section__title">Ikone</h3><code>(img/icons)</code>
+
+			<div class="section__desc--wrap">
+				<img src="../img/icons/repair.png" class="icon" />
+				<img src="../img/icons/maintenance.png" class="icon" />
+				<img src="../img/icons/guarantee.png" class="icon" />
+				<img src="../img/icons/discount.png" class="icon" />
+			</div>
 		</section>
 
 		<!-- Layout -->
@@ -226,18 +263,26 @@
 		<!-- Slider -->
 		<section class="section--style-guide">
 			<h3 class="section__title">Slider</h3><code>(css/scss/layout/nav.scss)</code>
+
+			<div class="gallery--wrap grid grid--12">
+				<div class="owl-carousel owl-carousel--gallery gallery">
+					<div class="gallery__img--wrap"><img src="../img/gallery/vozilo_1.jpg" alt="gallery" class="gallery__img" /></div>
+					<div class="gallery__img--wrap"><img src="../img/gallery/servis_4.jpg" alt="gallery" class="gallery__img" /></div>
+					<div class="gallery__img--wrap"><img src="../img/gallery/dijelovi_1.jpg" alt="gallery" class="gallery__img" /></div>
+				</div>
+			</div>
 		</section>
 
-		<!-- Cookies -->
+		<!-- Cookies
 		<section class="section--style-guide">
 			<h3 class="section__title">Cookies</h3><code>(css/scss/components/cookies.scss)</code>
 			<div class="cookies cookies--style-guide">
 				<div class="cookies__text">Servis Buhin koristi kolačiće za pružanje boljeg korisničkog iskustva i funkcionalnosti stranice - <a href="https://www.aboutcookies.org/">saznaj više</a>.</div>
 				<div class="btn btn--primary cookies__btn">Shvaćam</div>
 			</div>
-		</section>
+		</section> -->
 
-		<!-- Error -->
+		<!-- Error 
 		<section class="section--style-guide">
 			<h3 class="section__title">Error</h3><code>(css/scss/layout/header.scss)</code>
 			<header class="header grid--12">
@@ -249,17 +294,23 @@
 
 				<div class="header__img--wrap"></div>		
 			</header>
-		</section>
+		</section> -->
 		
 	</main>
 
 	<footer class="footer footer--style-guide">
 		<div class="footer__copyright">Servis Buhin &copy; <?php echo date("Y"); ?>.</div>
+		<a href="#nav--style-guide" class="footer__link">Na vrh <span>&uarr;</span></a>
 	</footer>
 
+	<script src="../js/jquery-3.4.1.min.js"></script>
 	<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin="">
 	</script> 
-	<script src="js/map.js"></script>
-	<script src="js/burger.js"></script>
+	<script src="../js/map.js"></script>
+	<script src="../js/burger.js"></script>
+	<script src="../js/owl_carousel_lib.js"></script>
+	<script src="../js/owl_carousel_init.js"></script>
+	<script src="../js/wow.min.js"></script>
+  <script>new WOW().init();</script>
 </body>
 </html>

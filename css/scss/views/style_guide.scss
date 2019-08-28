@@ -18,10 +18,6 @@
 	.nav__logo {
 		color: $black;
 		font-family: $heading-font-family;
-		
-		&:hover, &:active, &:focus {
-			color: rgba($black, 0.8);
-		}
 	}
 }
 
@@ -106,6 +102,17 @@
 
 /* TYPOGRAPHY */
 
+.main--style-guide {
+
+	p, ol, ul, li {
+		line-height: 1.5;
+	}
+}
+
+.subtitle--style-guide {
+	font-weight: $regular;
+}
+
 .quote--style-guide {
 	display: block;
 	color: $black;
@@ -123,6 +130,7 @@
 	font-family: $logo-font-family;
 }
 
+
 /* LOGO */
 
 .logo {
@@ -137,6 +145,14 @@
 		font-style: italic;
 		font-weight: $regular;
 	}
+}
+
+
+/* ICONS */
+
+.icon {
+	width: 4rem;
+	height: 4rem;
 }
 
 
@@ -177,6 +193,17 @@
 	border-top: 1px solid $color-gray--light;
 	padding-top: 1.25rem;
 	padding-bottom: 1.75rem;
+}
+
+.footer__link {
+	display: flex;
+	align-items: center;
+
+	span {
+		display: block;
+		margin-bottom: 0.25rem;
+		margin-left: 0.5rem;
+	}
 }
 
 

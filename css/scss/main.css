@@ -689,8 +689,6 @@ body {
   .nav--style-guide .nav__logo {
     color: #1A1A1A;
     font-family: "Palanquin Dark", sans-serif; }
-    .nav--style-guide .nav__logo:hover, .nav--style-guide .nav__logo:active, .nav--style-guide .nav__logo:focus {
-      color: rgba(26, 26, 26, 0.8); }
 
 /* SECTION */
 .main--style-guide {
@@ -740,6 +738,12 @@ body {
     background-color: #1A1A1A; }
 
 /* TYPOGRAPHY */
+.main--style-guide p, .main--style-guide ol, .main--style-guide ul, .main--style-guide li {
+  line-height: 1.5; }
+
+.subtitle--style-guide {
+  font-weight: 400; }
+
 .quote--style-guide {
   display: block;
   color: #1A1A1A; }
@@ -765,6 +769,11 @@ body {
     font-style: italic;
     font-weight: 400; }
 
+/* ICONS */
+.icon {
+  width: 4rem;
+  height: 4rem; }
+
 /* LAYOUT */
 .col {
   grid-column: auto/span 1;
@@ -788,6 +797,14 @@ body {
   border-top: 1px solid #D8D8D8;
   padding-top: 1.25rem;
   padding-bottom: 1.75rem; }
+
+.footer__link {
+  display: flex;
+  align-items: center; }
+  .footer__link span {
+    display: block;
+    margin-bottom: 0.25rem;
+    margin-left: 0.5rem; }
 
 /* COOKIES */
 .cookies--style-guide {
